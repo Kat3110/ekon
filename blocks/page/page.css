@@ -1,0 +1,18 @@
+.page {
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: 'Euclid Circular';
+    background: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+@media screen and (max-width: 1024px){
+    .page {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 320px){
+    .page {
+        min-width: 320px;
+    }
+}

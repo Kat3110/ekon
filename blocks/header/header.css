@@ -1,0 +1,53 @@
+.header {
+    width: 1521px;
+    margin: 0 auto;
+    height: 101px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 66px;
+    width: 160px;
+    height: 35px;
+    /* justify-content: space-between; */
+}
+
+.nav__car {
+    background: transparent url(../../images/car.svg) no-repeat center 6px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.nav__person {
+    background: transparent url(../../images/person.svg) no-repeat center 5px;
+    width: 28px;
+    height: 35px;
+    margin: 0 29px 0 31px;
+    cursor: pointer;
+}
+.nav__shop {
+    background: transparent url(../../images/shp.svg) no-repeat 0px 4px;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    cursor: pointer;
+}
+.nav__shop_orders {
+    position: absolute;
+    top: -3px;
+    right: 0px;
+    background: #1DBCD2;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    line-height: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}

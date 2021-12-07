@@ -1,0 +1,10 @@
+.header__filter_nav {
+    border-top: 2px solid #2B2E34;
+    margin: 0 0 7px;
+    width: 34px;
+    height: 0;
+}
+
+.header__filter_nav:nth-last-child(1){
+    margin: 0;
+}
