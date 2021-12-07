@@ -1,0 +1,23 @@
+.header__nav_shop {
+    background: transparent url(../../../../images/shp.svg) no-repeat 0px 4px;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    cursor: pointer;
+}
+
+.header__nav_orders {
+    position: absolute;
+    top: -3px;
+    right: 0px;
+    background: #1DBCD2;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    line-height: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}

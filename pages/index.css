@@ -3,41 +3,31 @@
 
 @import url(../blocks/page/page.css);
 
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__nav/header__filter_nav.css);
-@import url(../blocks/header/__filter/header__filter.css);
-@import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/__image/logo__image.css);
-@import url(../blocks/logo/__name/logo__name.css);
-@import url(../blocks/logo/__text/logo__text.css);
-
-@import url(../blocks/search/search.css);
-@import url(../blocks/search/__icon/search__icon.css);
-@import url(../blocks/search/__button/search__button.css);
-
 @import url(../blocks/content/content.css);
 
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__filter/header__filter.css);
+@import url(../blocks/header/__filter/_nav/header__filter_nav.css);
+
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__nav/_car/header__nav_car.css);
+@import url(../blocks/header/__nav/_person/header__nav_person.css);
+@import url(../blocks/header/__nav/_shop/header__nav_shop.css);
+
+@import url(../blocks/header/search/search.css);
+@import url(../blocks/header/search/_icon/header__search_icon.css);
+@import url(../blocks/header/search/_input/header__search_input.css);
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__image/logo__image.css);
+
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/__phone/info__phone.css);
+@import url(../blocks/info/__mail/info__mail.css);
+@import url(../blocks/info/__contacts/info__contacts.css);
+@import url(../blocks/info/__city/info__city.css);
+@import url(../blocks/info/__application/info__application.css);
+
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);

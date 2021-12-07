@@ -1,0 +1,6 @@
+.header__nav_car {
+    background: transparent url(../../../../images/car.svg) no-repeat center 6px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.info {
+    display: flex;
+    margin: 0;
+    height: 83px;
+    align-items: center;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.info a {
+    text-decoration: none;
+    color: #2B2E34;
+}
