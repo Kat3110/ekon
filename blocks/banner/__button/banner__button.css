@@ -1,0 +1,22 @@
+.banner__button {
+    width: 282px;
+    height: 78px;
+    background: #FFFFFF;
+    border: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #2B2E34;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.banner__button:hover {
+    opacity: 0.7;
+}

@@ -1,0 +1,11 @@
+.wood__home {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #858A93;
+    text-decoration: none;
+}
+
+.wood__home:hover {
+    opacity: 0.7;
+}

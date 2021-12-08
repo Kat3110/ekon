@@ -1,0 +1,7 @@
+.banner {
+    height: 294px;
+    background: linear-gradient(to right, #1DBCD1, #3DDCF1);
+    position: relative;
+
+    /* background: linear-gradient(to right, #1DBCD1, #3DDCF1), url(../../images/imageBanner.png) no-repeat 597px 0; */
+}

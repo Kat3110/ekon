@@ -28,28 +28,37 @@
 @import url(../blocks/info/__city/info__city.css);
 @import url(../blocks/info/__application/info__application.css);
 
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
+@import url(../blocks/banner/banner.css);
+@import url(../blocks/banner/__content/banner__content.css);
+@import url(../blocks/banner/__text/banner__text.css);
+@import url(../blocks/banner/__setting/banner__setting.css);
+@import url(../blocks/banner/__image/banner__image.css);
+@import url(../blocks/banner/__button/banner__button.css);
+
+@import url(../blocks/wood/wood.css);
+@import url(../blocks/wood/__text/wood__text.css);
+@import url(../blocks/wood/__home/wood__home.css);
+@import url(../blocks/wood/__equipment/wood__equipment.css);
+
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__text/section__text.css);
+
+@import url(../blocks/filter/filter.css);
+@import url(../blocks/filter/__catalog/filter__catalog.css);
+@import url(../blocks/filter/__box/filter__box.css);
+@import url(../blocks/filter/__strainer/filter__strainer.css);
+@import url(../blocks/filter/__close/filter__close.css);
+@import url(../blocks/filter/__dropping/filter__dropping.css);
+@import url(../blocks/filter/__heating/filter__heating.css);
+@import url(../blocks/filter/__heating/_text/filter__heating_text.css);
+@import url(../blocks/filter/__price/filter__price.css);
+@import url(../blocks/filter/__price/filter__price_min.css);
+@import url(../blocks/filter/__price/filter__price_max.css);
+@import url(../blocks/filter/__sum/filter__sum.css);
+
+@import url(../blocks/checkbox/checkbox.css);
+
+
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);

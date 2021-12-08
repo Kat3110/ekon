@@ -2,3 +2,7 @@
     height: 19px;
     cursor: pointer;
 }
+
+.header__filter:hover {
+    opacity: 0.7;
+}

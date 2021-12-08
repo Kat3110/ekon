@@ -4,3 +4,7 @@
     height: 35px;
     cursor: pointer;
 }
+
+.header__nav_car:hover {
+    opacity: 0.7;
+}

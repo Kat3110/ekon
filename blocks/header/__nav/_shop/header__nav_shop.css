@@ -21,3 +21,7 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+.header__nav_shop:hover {
+    opacity: 0.7;
+}
