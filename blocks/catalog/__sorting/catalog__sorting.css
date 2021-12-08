@@ -1,0 +1,10 @@
+.catalog__sorting {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 41px;
+    width: 1049px;
+    height: 87px;
+    background: #F4F4F4;
+    border-radius: 3px;
+    margin-bottom: 35px;
+}

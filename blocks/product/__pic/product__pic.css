@@ -1,0 +1,6 @@
+.product__pic {
+    height: 293px;
+    margin: 5px auto 0;
+    display: flex;
+    align-items: center;
+}

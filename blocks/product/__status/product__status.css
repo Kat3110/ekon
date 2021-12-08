@@ -1,0 +1,16 @@
+.product__status {
+    position: absolute;
+    width: 82px;
+    height: 82px;
+    background: #38D3E8;
+    bottom: 0;
+    right: 0;
+    background: #38D3E8 url(../../../images/shop.svg) center no-repeat;
+    text-decoration: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.product__status:hover {
+ opacity: 0.7;
+}

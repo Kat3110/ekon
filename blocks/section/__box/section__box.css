@@ -1,0 +1,4 @@
+.section__box {
+    display: flex;
+    justify-content: space-between;
+}

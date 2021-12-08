@@ -42,9 +42,9 @@
 
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/__text/section__text.css);
+@import url(../blocks/section/__box/section__box.css);
 
 @import url(../blocks/filter/filter.css);
-@import url(../blocks/filter/__catalog/filter__catalog.css);
 @import url(../blocks/filter/__box/filter__box.css);
 @import url(../blocks/filter/__strainer/filter__strainer.css);
 @import url(../blocks/filter/__close/filter__close.css);
@@ -58,7 +58,63 @@
 
 @import url(../blocks/checkbox/checkbox.css);
 
+@import url(../blocks/catalog/catalog.css);
+@import url(../blocks/catalog/__sorting/catalog__sorting.css);
+@import url(../blocks/catalog/__product/catalog__product.css);
+@import url(../blocks/catalog/__price/catalog__price.css);
 
+@import url(../blocks/product/product.css);
+@import url(../blocks/product/__status/product__status.css);
+@import url(../blocks/product/__price/product__price.css);
+@import url(../blocks/product/__nomination/product__nomination.css);
+@import url(../blocks/product/__image/product__image.css);
+@import url(../blocks/product/__box/product__box.css);
+@import url(../blocks/product/__pic/product__pic.css);
+
+@import url(../blocks/seo/seo.css);
+@import url(../blocks/seo/__title/seo__title.css);
+@import url(../blocks/seo/__subtitle/seo__subtitle.css);
+@import url(../blocks/seo/__paragraf/seo__paragraf.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__schedule/footer__schedule.css);
+@import url(../blocks/footer/__phone/footer__phone.css);
+@import url(../blocks/footer/__mail/footer__mail.css);
+
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);

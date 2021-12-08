@@ -1,3 +1,7 @@
+.checkbox {
+  margin: 17px 0;
+}
+
 input[type=checkbox] {
     display: none;
   }

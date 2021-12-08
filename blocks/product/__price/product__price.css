@@ -1,0 +1,17 @@
+.product__price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2B2E34;
+    margin: auto 31px 31px;
+
+}
+
+.product__price span{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    color: #2B2E34;
+    vertical-align: text-top;
+    margin-left: 5px;
+}

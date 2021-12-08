@@ -2,7 +2,7 @@
     max-width: 100%;
     margin: 0 auto;
     font-family: 'Euclid Circular';
-    background: #FFFFFF;
+    background: rgb(250, 250, 250);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

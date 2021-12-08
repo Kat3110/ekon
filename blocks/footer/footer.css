@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1520px;
+    margin: 0 auto;
+}
+
+.footer ul,
+.footer li,
+.footer a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #7E838C;
+}

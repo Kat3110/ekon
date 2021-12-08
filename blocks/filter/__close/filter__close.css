@@ -1,5 +1,5 @@
 .filter__close {
     display: flex;
-    background: transparent url(../../../images/close.png) no-repeat 309px 35px;
+    background: transparent url(../../../images/close.svg) no-repeat 309px 36px;
     margin: 0 0 60px;
 }

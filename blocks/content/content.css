@@ -1,6 +1,7 @@
 .content {
     margin: 0 auto;
     max-width: 1920px;
+    background: #fbfbfb;
 }
 @media screen and (max-width: 1024px){
     .content {

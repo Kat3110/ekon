@@ -1,0 +1,14 @@
+.catalog__product {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #7E838C;
+    margin: 32px 0 0;
+}
+
+.catalog__product span {
+    font-weight: 500;
+    color: #2B2E34;
+    font-size: 18px;
+    margin-right: 5px;
+}
