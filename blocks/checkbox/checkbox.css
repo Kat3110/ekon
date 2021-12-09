@@ -3,7 +3,7 @@
 }
 
 .checkbox__color {
-  margin: 17px 0 18px;
+  margin: 17px 0 19px;
 }
 
 input[type=checkbox] {
@@ -64,8 +64,8 @@ label:before {
   height: 10px;
   position: absolute;
   display: none;
-  right: -35px;
-  top: 4px;
+  right: -26px;
+  top: 3px;
   background: transparent url(../../images/cover.svg) no-repeat center;
 }
 

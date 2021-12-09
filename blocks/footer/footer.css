@@ -19,5 +19,15 @@
 }
 
 .footer .logo__image {
-    margin: 0 0 58px 0;
+    margin: -6px 0px 51px 2px;
+}
+
+.footer__contacts {
+    width: 280px;
+    margin-right: 200px;
+}
+
+.footer__category {
+    width: 256px;
+    margin-right: 190px;
 }
