@@ -12,3 +12,12 @@
 .footer__schedule p {
     margin: 0;
 }
+
+
+@media screen and (max-width: 1570px){
+    .footer__schedule {
+        font-size: 1.032vw;
+        line-height: 1.806vw;
+        margin-bottom: 3.548vw;
+    }
+}

@@ -2,3 +2,10 @@
     width: 44px;
     margin-left: 11px;
 }
+
+@media screen and (max-width: 1570px){
+    .banner__icon {
+        width: 2.839vw;
+        margin-left: 0.710vw;
+    }
+}

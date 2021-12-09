@@ -13,3 +13,18 @@
     color: #2B2E34;
     margin-left: 5px;
 }
+
+@media screen and (max-width: 1570px){
+    .catalog__price {
+        font-size: 1.097vw;
+        line-height: 1.742vw;
+        margin: 2vw 0 0 0;
+        background: transparent url(../../../images/Vector.svg) 13.677vw 0.581vw no-repeat;
+        background-size: 4.5%;
+        padding-right: 1.935vw;
+    }
+    
+    .catalog__price span {
+        margin-left: 0.323vw;
+    }
+}

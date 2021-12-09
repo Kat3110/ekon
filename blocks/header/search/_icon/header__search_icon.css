@@ -2,3 +2,11 @@
     height: 17px;
     width: 17px;
 }
+
+@media screen and (max-width: 1570px) { 
+    .header__search_icon {
+        height: 1.083vw;
+        width: 1.083vw;
+    }
+    
+}

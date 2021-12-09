@@ -2,3 +2,10 @@
     background: url(../../../images/geo.svg) no-repeat 0px center;
     padding-left: 32px
 }
+
+@media screen and (max-width: 1570px) { 
+    .info__city {
+        padding-left: 2.065vw;
+        background: url(../../../images/geo.svg) no-repeat 0px center / 11%;
+    }
+}

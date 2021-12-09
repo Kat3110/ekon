@@ -3,5 +3,13 @@
     font-size: 40px;
     line-height: 53px;
     color: #2B2E34;
-    margin: 0px 0px 58px 0px;
+    margin: 0 0 58px 0;
+}
+
+@media screen and (max-width: 1570px){
+    .section__text {
+        font-size: 2.581vw;
+        line-height: 3.419vw;
+        margin: 0 0 3.742vw 0;
+    }
 }

@@ -5,23 +5,8 @@
 .content section {
     max-width: 1920px;
 }
-@media screen and (max-width: 1024px){
-    .content {
+@media screen and (max-width: 1570px){
+    /* .content {
         max-width: 751px;
-    }
-}
-@media screen and (max-width: 768px){
-    .content {
-        max-width: 440px;
-    }
-}
-@media screen and (max-width: 457px){
-    .content {
-        max-width: 300px;
-    }
-}
-@media screen and (max-width: 320px){
-    .content {
-        min-width: 282px;
-    }
+    } */
 }

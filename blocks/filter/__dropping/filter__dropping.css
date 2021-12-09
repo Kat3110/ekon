@@ -5,3 +5,11 @@
     color: #7E838C;
     margin: 34px 0 0 93px;
 }
+
+@media screen and (max-width: 1570px){
+    .filter__dropping {
+        font-size: 1.032vw;
+        line-height: 1.290vw;
+        margin: 2.194vw 0 0 6vw;
+    }
+}

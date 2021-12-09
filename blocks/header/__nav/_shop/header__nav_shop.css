@@ -25,3 +25,19 @@
 .header__nav_shop:hover {
     opacity: 0.7;
 }
+
+@media screen and (max-width: 1570px) { 
+    .header__nav_shop {
+        background: transparent url(../../../../images/shp.svg) no-repeat 0px 0.258vw / 78%;
+        width: 2.258vw;
+        height: 2.258vw;
+    }
+    
+    .header__nav_orders {
+        top: -0.194vw;
+        width: 1.032vw;
+        height: 1.032vw;
+        font-size: 0.645vw;
+        line-height: 1.097vw;
+    }
+}

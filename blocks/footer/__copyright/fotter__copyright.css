@@ -4,3 +4,10 @@
     line-height: 20px;
     color: #7E838C;
 }
+
+@media screen and (max-width: 1570px){
+    .fotter__copyright {
+        font-size: 1.032vw;
+        line-height: 1.290vw;
+    }
+}

@@ -3,6 +3,17 @@
     line-height: 25px;
     color: #7E838C;
     margin-right: 15px;
-    background: transparent url(../../../images/vk.svg) no-repeat 0px 6px;
+    background: transparent url(../../../images/vk.svg) no-repeat 0 6px;
     padding-left: 33px !important;
+}
+
+@media screen and (max-width: 1570px){
+    .footer__vk {
+        font-size: 1.032vw;
+        line-height: 1.613vw;
+        margin-right: 0.968vw;
+        background: transparent url(../../../images/vk.svg) no-repeat 0 0.387vw;
+        padding-left: 2.129vw !important;
+        background-size: 18.5%;
+    }
 }

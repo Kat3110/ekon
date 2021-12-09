@@ -20,7 +20,7 @@
     width: 182px;
     position: absolute;
     border-top: 3px solid #38D3E8;
-    top: 62px;
+    top: 63px;
     left: 3px;
 }
 
@@ -49,4 +49,43 @@
 .filter__price span {
     vertical-align: super; 
     font-size: 10px;
+}
+
+
+
+@media screen and (max-width: 1570px){
+    .filter__price {
+        width: 19.355vw;
+        font-size: 0.903vw;
+        line-height: 0.645vw;
+        margin: 0 auto 4.323vw;
+    
+    }
+    
+    .price {
+        width: 19.032vw;
+        margin-bottom: 1.484vw;
+    }
+    
+    .filter__price .bar {
+        width: 11.742vw;
+        top: 4.065vw;
+        left: 0.194vw;
+    }
+    
+    .filter__price .bar:before {
+        width: 0.065vw;
+        height: 1.161vw;
+        bottom: -0.452vw;
+    }
+    
+    .filter__price .bar:after {
+        width: 0.065vw;
+        height: 1.161vw;
+        bottom: -0.452vw;
+    }
+    
+    .filter__price span {
+        font-size: 0.645vw;
+    }
 }

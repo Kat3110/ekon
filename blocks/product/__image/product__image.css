@@ -6,3 +6,19 @@
 .product__box:nth-of-type(3n) .product__image {
     margin-top: 19px;
 }
+
+@media screen and (max-width: 1570px){
+    .product__box:nth-of-type(1n) .product__image {
+        width: 15.548vw;
+        height: 18.903vw;
+    }
+    .product__box:nth-of-type(2n) .product__image {
+        width: 18.581vw;
+        height: 17.419vw;
+    }
+    .product__box:nth-of-type(3n) .product__image {
+        margin-top: 1.226vw;
+        width: 15.871vw;
+        height: 15.871vw;
+    }
+}

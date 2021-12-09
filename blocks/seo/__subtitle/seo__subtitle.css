@@ -5,3 +5,11 @@
     color: #2B2E34;
     margin: 48px 0 30px;
 }
+
+@media screen and (max-width: 1570px){
+    .seo__subtitle {
+        font-size: 1.419vw;
+        line-height: 1.677vw;
+        margin: 3.097vw 0 1.935vw;
+    }
+}

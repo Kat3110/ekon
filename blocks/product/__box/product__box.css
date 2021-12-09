@@ -8,3 +8,11 @@
     height: 487px;
     margin-bottom: 35px;
 }
+
+@media screen and (max-width: 1570px){
+    .product__box {
+        border-radius: 0.129px;
+        height: 31.419vw;
+        margin-bottom: 2.258vw;
+    }
+}

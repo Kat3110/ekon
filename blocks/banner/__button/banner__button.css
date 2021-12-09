@@ -15,8 +15,20 @@
     margin: 5px 23px 0 0;
     padding: 0 11px 0 0;
     cursor: pointer;
+    z-index: 2;
 }
 
 .banner__button:hover {
     opacity: 0.7;
+}
+
+@media screen and (max-width: 1570px){
+    .banner__button {
+        width: 18vw;
+        height: 5.032vw;
+        line-height: 1.484vw;
+        margin: 0.323vw 1.484vw 0 0;
+        padding: 0 0.710vw 0 0;
+        font-size: 1.161vw;
+    }
 }

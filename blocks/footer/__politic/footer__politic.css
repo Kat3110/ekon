@@ -8,3 +8,11 @@
     border-top: 1px solid rgba(217, 218, 225, 0.8);
     padding-top: 25px;
 }
+
+
+@media screen and (max-width: 1570px){
+    .footer__politic {
+        margin-top: 3.548vw;
+        padding-top: 1.613vw;
+    }
+}

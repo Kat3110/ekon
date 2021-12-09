@@ -6,3 +6,9 @@
 .wood__fraction {
     margin: 0 3px 0;
 }
+
+@media screen and (max-width: 1570px){
+    .wood__fraction {
+        margin: 0 0.194vw 0;
+    }
+}

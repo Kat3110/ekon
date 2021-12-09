@@ -7,3 +7,12 @@
     background: transparent url(../../../../images/Vector.svg) no-repeat 282px 7px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1570px){
+    .filter__heating_text {
+        font-size: 1.161vw;
+        line-height: 1.484vw;
+        margin: 0 0 1.613vw;
+        background: transparent url(../../../../images/Vector.svg) no-repeat 18.194vw 0.452vw / 4.5%;
+    }
+}

@@ -7,3 +7,11 @@
     top: 0;
     left: 0;
 }
+
+@media screen and (max-width: 1570px){
+    .product__sale {
+        width: 7.097vw;
+        height: 2.387vw;
+        border-radius: 0.129vw 0px 0px 0px;
+    }
+}

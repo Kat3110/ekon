@@ -2,3 +2,10 @@
     width: 1540px;
     margin: 0 auto 155px;
 }
+
+@media screen and (max-width: 1570px){
+    .section {
+        width: 98.089vw;
+        margin: 0 auto 10vw;
+    }
+}

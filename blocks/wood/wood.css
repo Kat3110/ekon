@@ -2,3 +2,10 @@
     width: 1541px;
     margin: 46px auto 65px;
 }
+
+@media screen and (max-width: 1570px){
+    .wood {
+        width: 98.089vw;
+        margin: 2.968vw auto 4.194vw;
+    }
+}

@@ -4,3 +4,12 @@
     background: #F4F4F4;
     border-radius: 3px;
 }
+
+@media screen and (max-width: 1570px){
+    .filter {
+        width: 22.903vw;
+        height: 110%;
+        background: #F4F4F4;
+        border-radius: 0.194vw;
+    }
+}

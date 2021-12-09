@@ -1,3 +1,16 @@
 .footer__log {
     margin: 0 7px 0 17px;
+
+}
+
+@media screen and (max-width: 1570px){
+    .footer__log {
+        margin: 0 0.452vw 0 1.097vw;
+        width: 2vw;
+        height: 2vw;
+    }
+    .footer__name {
+        width: 7.677vw;
+        height: 1.742vw;
+    }
 }

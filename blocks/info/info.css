@@ -16,3 +16,14 @@
 .info a:hover {
     opacity: 0.7;
 }
+
+@media screen and (max-width: 1570px) { 
+    .info {
+        margin: 1.097vw auto 0;
+        height: 5.355vw;
+        font-size: 1.146vw;
+        line-height: 1.656vw;
+        width: 98.089vw;
+    }
+    
+}

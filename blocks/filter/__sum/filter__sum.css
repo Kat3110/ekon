@@ -5,3 +5,11 @@
     line-height: 23px;
     color: #2B2E34;
 }
+
+@media screen and (max-width: 1570px){
+    .filter__sum {
+        margin: 0 0 2.645vw;
+        font-size: 1.161vw;
+        line-height: 1.484vw;
+    }  
+}

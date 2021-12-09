@@ -15,3 +15,20 @@
     display: block;
     margin-bottom: 59px;
 }
+
+@media screen and (max-width: 1570px) {
+    .info__mail {
+        background: url(../../../images/mail.svg) no-repeat 0 -0.194vw;
+        background-size: 14%;
+        padding-left: 2.452vw;
+        margin-left: 10.839vw;
+    }  
+    .footer .info__mail {
+        background: url(../../../images/mailfooter.svg) no-repeat 0 -0.194vw;
+        background-size: 8.7%;
+        padding-left: 2.452vw;
+        font-size: 1.161vw;
+        line-height: 1.290vw;
+        margin-bottom: 3.806vw;
+    }
+}

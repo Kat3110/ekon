@@ -8,3 +8,14 @@
     margin: 9px 0 8px 2px;
     padding-left: 20px;
 }
+
+@media screen and (max-width: 1570px){
+    .product__text {
+        background: transparent url(../../../images/procent.svg) no-repeat 0.968vw 0.129vw;
+        background-size: 13%;
+        font-size: 0.968vw;
+        line-height: 1.226vw;
+        margin: 0.581vw 0 0.516vw 0.129vw;
+        padding-left: 1.290vw;
+    }
+}

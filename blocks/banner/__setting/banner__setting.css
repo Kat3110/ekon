@@ -6,3 +6,11 @@
     color: #FFFFFF;
     margin: 0;
 }
+
+@media screen and (max-width: 1570px){
+    .banner__setting {
+        width: 37.355vw;
+        font-size: 1.161vw;
+        line-height: 1.742vw;
+    }
+}

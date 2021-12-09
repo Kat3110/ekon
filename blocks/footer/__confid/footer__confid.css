@@ -5,3 +5,11 @@
     color: #7E838C;
     width: 256px;
 }
+
+@media screen and (max-width: 1570px){
+    .footer__confid {
+        font-size: 1.032vw;
+        line-height: 1.290vw;
+        width: 16.516vw;
+    }
+}

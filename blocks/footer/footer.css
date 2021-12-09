@@ -18,20 +18,18 @@
 }
 
 .footer .logo__image {
-    margin: -7px 0px 50px 5px
+    margin: -7px 0 50px 5px;
 }
 
-.footer__contacts {
-    width: 280px;
-    margin-right: 200px;
-}
 
-.footer__category {
-    width: 256px;
-    margin-right: 190px;
-}
 
-.footer__category:nth-child(4) {
-    width: auto;
-    margin-right: 0;
+@media screen and (max-width: 1570px){
+    .footer {
+        width: 98.089vw;
+        padding-bottom: 0.968vw;
+    }
+    
+    .footer .logo__image {
+        margin: -0.452vw 0 3.226vw 0.323vw;
+    }
 }

@@ -13,3 +13,15 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 1570px){
+    .seo__paragraf {
+        width: 70.645vw;
+        font-size: 1.032vw;
+        line-height: 1.677vw;
+        margin: 1.677vw 0 1.677vw;
+    }
+    .seo__paragraf:nth-child(2n) {
+        margin-bottom: 1.806vw;
+    }
+}

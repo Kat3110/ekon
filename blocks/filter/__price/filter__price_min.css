@@ -2,3 +2,9 @@
     display: inline-block;
     margin: 0 112px 0 -2px;
 }
+
+@media screen and (max-width: 1570px){
+    .filter__price_min {
+        margin: 0 7.226vw 0 -0.129vw;
+    }
+}

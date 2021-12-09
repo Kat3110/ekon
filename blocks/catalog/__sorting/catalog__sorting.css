@@ -8,3 +8,13 @@
     border-radius: 3px;
     margin-bottom: 35px;
 }
+
+@media screen and (max-width: 1570px){
+    .catalog__sorting {
+        padding: 0 2.645vw;
+        width: 67.677vw;
+        height: 5.613vw;
+        border-radius: 0.194vw;
+        margin-bottom: 2.258vw;
+    }
+}

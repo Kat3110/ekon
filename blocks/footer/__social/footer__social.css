@@ -11,3 +11,11 @@
     flex-direction: row;
     align-items: center;
 }
+
+@media screen and (max-width: 1570px){
+    .footer__social {
+        font-size: 1.161vw;
+        line-height: 1.290vw;
+        margin: 0 0 1.355vw;
+    }
+}

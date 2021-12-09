@@ -12,3 +12,16 @@
     font-size: 18px;
     margin-right: 5px;
 }
+
+@media screen and (max-width: 1570px){
+    .catalog__product {
+        font-size: 1.032vw;
+        line-height: 1.484vw;
+        margin: 2.065vw 0 0;
+    }
+    
+    .catalog__product span {
+        font-size: 1.161vw;
+        margin-right: 0.323vw;
+    }
+}

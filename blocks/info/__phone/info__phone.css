@@ -14,3 +14,20 @@
     line-height: 21px;
     display: block;
 }
+
+@media screen and (max-width: 1570px) {
+    .info__phone {
+        background-size: 11%;
+        padding-left: 2.387vw;
+        margin-left: 10.774vw;
+    }
+    
+    .footer .info__phone {
+        background: url(../../../images/VectorPhone.svg) no-repeat 0.129vw 0px;
+        padding-left: 2.258vw;
+        background-size: 7.5%;
+        margin-bottom: 1.226vw;
+        font-size: 1.161vw;
+        line-height: 1.355vw;
+    }
+}

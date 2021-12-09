@@ -10,3 +10,15 @@
     color: #73737B;
     padding: 0 0 0 66px;
 }
+
+@media screen and (max-width: 1570px) { 
+    .header__search_input {
+        height: 3.439vw;
+        width: 50vw;
+        background: #F7F7F7 url(../../../../images/loupe.svg) no-repeat 1.911vw 1.097vw / 2.3%;
+        font-size: 0.955vw;
+        line-height: 1.210vw;
+        padding: 0 0 0 4.204vw;
+    }
+    
+}

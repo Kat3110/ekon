@@ -8,3 +8,11 @@
 .header__nav_car:hover {
     opacity: 0.7;
 }
+
+@media screen and (max-width: 1570px) { 
+    .header__nav_car {
+        background: transparent url(../../../../images/car.svg) no-repeat center 0.387vw / 101%;
+        width: 2.229vw;
+        height: 2.229vw;
+    }
+}

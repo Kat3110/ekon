@@ -8,3 +8,9 @@
 .header__filter_nav:nth-last-child(1){
     margin: 0;
 }
+@media screen and (max-width: 1570px) { 
+    .header__filter_nav {
+        margin: 0 0 0.452vw;
+        width: 2.194vw;
+    }
+}

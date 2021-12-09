@@ -3,3 +3,11 @@
     margin: 0 auto 53px;
     padding-bottom: 165px;
 }
+
+@media screen and (max-width: 1570px){
+    .seo {
+        width: 71.742vw;
+        margin: 0 auto 3.419vw;
+        padding-bottom: 10.645vw;
+    }
+}

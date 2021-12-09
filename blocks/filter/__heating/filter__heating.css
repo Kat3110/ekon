@@ -8,3 +8,17 @@
 .filter__heating:nth-child(7) {
    margin: 0 30px 65px;
 }
+
+
+@media screen and (max-width: 1570px){
+   .filter__heating {
+      margin: 0 1.935vw 3.871vw;
+   }
+   .filter__heating:nth-child(3) {
+      margin: 0 1.935vw 4.323vw;
+   }
+   
+   .filter__heating:nth-child(7) {
+      margin: 0 1.935vw 4.194vw;
+   }
+}

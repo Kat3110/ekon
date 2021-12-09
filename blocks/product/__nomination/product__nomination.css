@@ -6,3 +6,12 @@
     width: 298px;
     margin: 38px auto;
 }
+
+@media screen and (max-width: 1570px){
+    .product__nomination {
+        font-size: 1.032vw;
+        line-height: 1.613vw;
+        width: 19.226vw;
+        margin: 2.452vw auto;
+    }
+}

@@ -2,7 +2,6 @@
     position: absolute;
     width: 82px;
     height: 82px;
-    background: #38D3E8;
     bottom: 0;
     right: 0;
     background: #38D3E8 url(../../../images/shop.svg) center no-repeat;
@@ -13,4 +12,12 @@
 
 .product__status:hover {
  opacity: 0.7;
+}
+
+@media screen and (max-width: 1570px){
+    .product__status {
+        width: 5.290vw;
+        height: 5.290vw;
+        background-size: 26%;
+    }
 }
