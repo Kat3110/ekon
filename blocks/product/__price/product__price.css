@@ -4,7 +4,7 @@
     line-height: 25px;
     color: #2B2E34;
     margin: auto 31px 31px;
-
+    position: relative;
 }
 
 .product__price span{
@@ -14,4 +14,24 @@
     color: #2B2E34;
     vertical-align: text-top;
     margin-left: 5px;
+}
+
+.product__price_discount {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 14px;
+    color: #7E838C;
+    position: absolute;
+    margin: 0;
+    bottom: 3px;
+    left: 81px;
+    width: 64px;
+    text-align: center;
+    background: url(../../../images/redline.svg) no-repeat -2px 2px;
+}
+.product__price_discount span {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    margin-left: 3px;
 }

@@ -2,22 +2,13 @@
     display: flex;
     flex-direction: column;
     margin: 0;
-}
-
-.footer__schedule {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
     font-size: 16px;
     line-height: 28px;
     color: #7E838C;
-    font-weight: 300;
+    font-weight: 400;
+    margin-bottom: 55px;
 }
 
 .footer__schedule p {
-    margin: 0;
-}
-
-.footer .logo__image {
     margin: 0;
 }

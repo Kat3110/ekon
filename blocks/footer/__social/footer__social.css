@@ -1,0 +1,13 @@
+.footer__social {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #2B2E34;
+    margin: 0 0 21px;
+}
+
+.footer__block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

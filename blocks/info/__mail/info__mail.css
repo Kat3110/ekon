@@ -1,5 +1,17 @@
 .info__mail {
-    background: url(../../../images/mail.svg) no-repeat 0px -3px;
+    background: url(../../../images/mail.svg) no-repeat 0 -3px;
     padding-left: 38px;
     margin-left: 168px;
 } 
+
+
+.footer .info__mail {
+    background: url(../../../images/mailfooter.svg) no-repeat 0 -3px;
+    padding-left: 32px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #2B2E34;
+    display: block;
+    margin-bottom: 59px;
+}

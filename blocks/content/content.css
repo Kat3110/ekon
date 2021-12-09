@@ -1,7 +1,9 @@
 .content {
-    margin: 0 auto;
-    max-width: 1920px;
+    width: 100%;
     background: #fbfbfb;
+}
+.content section {
+    max-width: 1920px;
 }
 @media screen and (max-width: 1024px){
     .content {

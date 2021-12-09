@@ -3,6 +3,9 @@
     justify-content: space-between;
     width: 1520px;
     margin: 0 auto;
+    background-color: white;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
 }
 
 .footer ul,
@@ -13,4 +16,8 @@
     padding: 0;
     text-decoration: none;
     color: #7E838C;
+}
+
+.footer .logo__image {
+    margin: 0 0 58px 0;
 }

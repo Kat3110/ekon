@@ -1,0 +1,11 @@
+.footer__politic {
+    width: 100%;
+    display: flex;
+    /* -ms-flex-direction: row; */
+    margin-top: 58px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    border-top: 1px solid rgba(217, 218, 225, 0.8);
+    padding-top: 25px;
+}

@@ -1,5 +1,16 @@
 .info__phone {
-    background: url(../../../images/phone.svg) no-repeat 0px 0px;
+    background: url(../../../images/phone.svg) no-repeat 0 0;
     padding-left: 37px;
     margin-left: 167px;
+}
+
+.footer .info__phone {
+    background: url(../../../images/VectorPhone.svg) no-repeat 0px 0px;
+    padding-left: 33px;
+    margin-bottom: 19px;
+    color: #2B2E34;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    display: block;
 }

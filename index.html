@@ -29,16 +29,16 @@
           <div class="header__nav_orders">3</div>
         </div>
       </nav>
-    </header>
-    <main class="content">
-      <section class="info">
+      <div class="info">
         <a class="info__city" href="https://yandex.ru/maps/54/yekaterinburg/?ll=60.644981%2C56.842678&z=12"
           target="_blank">Екатеринбург</a>
         <a class="info__phone" href="tel:+7(495)5063650">+7 (495) 506-36-50</a>
         <a class="info__mail" href="office@uconerfo.ru" target="_blank">office@uconerfo.ru</a>
         <a class="info__application" href="office@uconerfo.ru" target="_blank">Заявка на расчет</a>
         <a class="info__contacts" href="tel:+7(495)5063650">Контакты</a>
-      </section>
+      </div>
+    </header>
+    <main class="content">
       <section class="banner">
         <img class="banner__image" src="images/imageBanner.png" alt="Холодльник">
         <div class="banner__content">
@@ -230,11 +230,17 @@
                 <button class="product__status" type="button"></button>
               </div>
               <div class="product__box">
+                <div class="product__sale">
+                  <p class="product__text">Акция</p>
+                </div>
                 <div class="product__pic">
                   <img class="product__image" src="images/battery2.png" alt="Батарея">
                 </div>
                 <p class="product__nomination">Биметаллический радиатор Royal Thermo Indigo Super </p>
-                <p class="product__price">4 250<span>₽</span></p>
+                <div class="product__price">4 250<span>₽</span>
+                  <p class="product__price_discount">5 890<span>₽</span></p>
+                </div>
+                
                 <button class="product__status" type="button"></button>
               </div>
               <div class="product__box">
@@ -278,11 +284,15 @@
                 <button class="product__status" type="button"></button>
               </div>
               <div class="product__box">
+                <div class="product__sale">
+                  <p class="product__text">Акция</p>
+                </div>
                 <div class="product__pic">
                   <img class="product__image" src="images/battery2.png" alt="Батарея">
                 </div>
                 <p class="product__nomination">Биметаллический радиатор Royal Thermo Indigo Super </p>
                 <p class="product__price">4 250<span>₽</span></p>
+                <p class="product__price_discount">5 890<span>₽</span>
                 <button class="product__status" type="button"></button>
               </div>
               <div class="product__box">
@@ -389,12 +399,17 @@
     <footer class="footer">
       <div class="footer__contacts">
         <img class="logo__image" src="images/logo.svg" alt=".">
-        <a class="footer__phone" href="tel:+7 (495) 506-36-50">+7 (495) 506-36-50</a>
+        <a class="info__phone" href="tel:+7(495)5063650">+7 (495) 506-36-50</a>
         <div class="footer__schedule">
           <p>Пн-Пт: с 08:00 до 19:00</p>
           <p>Сб-Вс: с 08:00 до 16:00</p>
         </div>
-        <a class="footer__mail" href="office@uconerfo.ru" target="_blank">office@uconerfo.ru</a>
+        <a class="info__mail" href="office@uconerfo.ru" target="_blank">office@uconerfo.ru</a>
+        <div class="footer__social">Мы в сети</div>
+        <div class="footer__block">
+          <a class="footer__vk" href="" target="_blank">ВКонтакте</a>
+          <a class="footer__inst" href="" target="_blank">Instagram</a>
+        </div>
       </div>
       <div class="footer__category">
         <div class="footer__title">Категории продукции </div>
@@ -439,9 +454,18 @@
           <li class="footer__list"><a href="" target="_blank">Доставка и оплата</a></li>
           <li class="footer__list"><a href="" target="_blank">Контакты</a></li>
         </ul>
-
       </div>
-
+      <div class="footer__politic">
+        <p class="fotter__copyright">Copyright © 2014 - 2020</p>
+        <a class="footer__confid" href="" target="_blank">Политика конфиденциальности</a>
+        <a class="footer__info" href="" target="_blank">Обработка персональной информации</a>
+        <p class="footer__designed">Разработано
+          <a class="footer__reference" href="" target="_blank">
+              <img class="footer__log" src="images/logoName.svg" alt="логотип компании разработчика">
+              <img class="footer__name" src="images/logoFooter.svg" alt="наименование организации разработчика">
+          </a>
+        </p>
+      </div>
     </footer>
   </div>
 </body>
