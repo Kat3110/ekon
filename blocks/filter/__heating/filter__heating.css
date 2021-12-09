@@ -1,3 +1,10 @@
 .filter__heating {
    margin: 0 30px 60px;
 }
+.filter__heating:nth-child(3) {
+   margin: 0 30px 67px;
+}
+
+.filter__heating:nth-child(7) {
+   margin: 0 30px 65px;
+}

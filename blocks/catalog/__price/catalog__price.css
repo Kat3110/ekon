@@ -1,11 +1,11 @@
 .catalog__price {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 23px;
+    font-size: 17px;
+    line-height: 27px;
     color: #7E838C;
-    margin: 32px 0 0;
-    background: transparent url(../../../images/Vector.svg) 206px 8px no-repeat;
-    padding-right: 41px;
+    margin: 31px 0 0;
+    background: transparent url(../../../images/Vector.svg) 214px 9px no-repeat;
+    padding-right: 42px;
 }
 
 .catalog__price span {

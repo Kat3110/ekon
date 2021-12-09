@@ -5,7 +5,7 @@
     font-size: 14px;
     line-height: 10px;
     font-weight: 500;
-    margin: 0 auto 60px;
+    margin: 0 auto 67px;
 
 }
 
@@ -20,8 +20,8 @@
     width: 182px;
     position: absolute;
     border-top: 3px solid #38D3E8;
-    top: 64px;
-    left: 5px;
+    top: 62px;
+    left: 3px;
 }
 
 .filter__price .bar:before {
@@ -48,5 +48,5 @@
 
 .filter__price span {
     vertical-align: super; 
-    font-size: 10px;
+    font-size: 8px;
 }

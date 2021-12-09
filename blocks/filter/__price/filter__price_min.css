@@ -1,4 +1,4 @@
 .filter__price_min {
     display: inline-block;
-    margin-right: 112px;
+    margin: 0 112px 0 -2px;
 }

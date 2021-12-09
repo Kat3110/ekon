@@ -2,6 +2,10 @@
   margin: 17px 0;
 }
 
+.checkbox__color {
+  margin: 17px 0 18px;
+}
+
 input[type=checkbox] {
     display: none;
   }

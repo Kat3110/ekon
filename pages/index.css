@@ -34,6 +34,7 @@
 @import url(../blocks/banner/__setting/banner__setting.css);
 @import url(../blocks/banner/__image/banner__image.css);
 @import url(../blocks/banner/__button/banner__button.css);
+@import url(../blocks/banner/__icon/banner__icon.css);
 
 @import url(../blocks/wood/wood.css);
 @import url(../blocks/wood/__text/wood__text.css);
