@@ -31,3 +31,8 @@
     width: 256px;
     margin-right: 190px;
 }
+
+.footer__category:nth-child(4) {
+    width: auto;
+    margin-right: 0;
+}
