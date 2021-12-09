@@ -1,8 +1,7 @@
 .footer__politic {
     width: 100%;
     display: flex;
-    /* -ms-flex-direction: row; */
-    margin-top: 58px;
+    margin-top: 55px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
