@@ -26,3 +26,7 @@
 .menu__catalog:last-of-type {
     padding-bottom: 74px;
 }
+
+.menu__catalog:last-of-type li {
+    margin-bottom: 27px;
+}
