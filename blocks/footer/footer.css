@@ -8,7 +8,7 @@
 }
 
 .footer ul,
-.footer li,
+/* .footer li, */
 .footer a {
     list-style-type: none;
     margin: 0;
@@ -17,11 +17,15 @@
     color: #7E838C;
 }
 
+.footer li {
+    text-decoration: none;
+    padding: 0;
+    margin: 1px 1px 1px 1px;
+}
+
 .footer .logo__image {
     margin: -7px 0 50px 5px;
 }
-
-
 
 @media screen and (max-width: 1570px){
     .footer {
