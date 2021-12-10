@@ -1,20 +1,20 @@
 .menu__item {
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 22px;
     color: #2B2E34;
-    padding-left: 60px;
+    padding-left: 40px;
     margin: 23px auto;
 }
 
 .menu__item:nth-of-type(1n) {
-   background: transparent url(../../../images/tap.svg) no-repeat 20px 20px;
+   background: transparent url(../../../images/tap.svg) no-repeat -1px 24px;
 }
 
 .menu__item:nth-of-type(2n) {
-    background: transparent url(../../../images/hand-sanitizer.svg) no-repeat 20px 50%;;
+    background: transparent url(../../../images/hand-sanitizer.svg) no-repeat -1px 50%;;
 }
 
 .menu__item:nth-of-type(3n) {
-    background: transparent url(../../../images/dispenser.svg) no-repeat 20px 20px;
+    background: transparent url(../../../images/dispenser.svg) no-repeat -1px 24px;
 }
