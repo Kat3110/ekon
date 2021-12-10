@@ -1,0 +1,8 @@
+.menu__up {
+    width: 373px;
+    margin: 0 auto 62px;
+    padding-top: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

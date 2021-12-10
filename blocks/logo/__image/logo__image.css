@@ -26,6 +26,12 @@
         display: block;
         width: 186px;
         height: 37px;
-        margin: 16px 0px 16px 23px;
+        margin: 16px 0 16px 23px;
+    }
+    .menu .logo__image_min {
+        display: block;
+        width: 186px;
+        height: 37px;
+        margin: 0;
     }
 }

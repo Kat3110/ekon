@@ -1,0 +1,7 @@
+.menu__close {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    background: transparent url(../../images/close.svg) no-repeat center;
+    float: right;
+}

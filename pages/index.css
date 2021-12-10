@@ -96,13 +96,15 @@
 @import url(../blocks/footer/__confid/footer__confid.css);
 @import url(../blocks/footer/__category/footer__category.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
+
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__catalog/menu__catalog.css);
+@import url(../blocks/menu/__additionally/menu__additionally.css);
+@import url(../blocks/menu/__up/menu__up.css);
+@import url(../blocks/menu/__close/menu__close.css);
+@import url(../blocks/menu/__border/menu__border.css);
+@import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);

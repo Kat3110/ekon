@@ -1,0 +1,28 @@
+.menu__catalog {
+    margin-left: 18px;
+}
+
+.menu__catalog p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2B2E34;
+    padding-left: 40px;
+    background: transparent url(../../../images/batery.svg) no-repeat 0px 1px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.menu__catalog p::after {
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    right: 21px;
+    background: transparent url(../../../images/Vector.svg) no-repeat center;
+}
+
+.menu__catalog:last-of-type {
+    padding-bottom: 74px;
+}

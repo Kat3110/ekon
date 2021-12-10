@@ -1,0 +1,26 @@
+.menu {
+    width: 414px;
+    margin: 0 auto;
+    /* background: #E5E5E5 !important; */
+}
+
+.menu ul,
+.menu a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #2B2E34;
+}
+
+.menu li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #2B2E34;
+    margin-bottom: 25px;
+}
+
+.menu a:hover {
+    opacity: 0.7;
+}
