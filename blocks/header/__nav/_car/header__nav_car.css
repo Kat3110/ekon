@@ -16,3 +16,11 @@
         height: 2.229vw;
     }
 }
+
+@media screen and (max-width: 767px) { 
+    .header__nav_car {
+        background: transparent url(../../../../images/phone.svg) no-repeat center;
+        height: 23px;
+        width: 24px;
+    }
+}

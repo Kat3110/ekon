@@ -14,3 +14,13 @@
         line-height: 1.742vw;
     }
 }
+
+@media screen and (max-width: 767px) { 
+    .banner__setting {
+        font-size: 15px;
+        line-height: 22px;
+        margin: 0 48px 52px;
+        width: 318px;
+        text-align: center;
+    }
+}

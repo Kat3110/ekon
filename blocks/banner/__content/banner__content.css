@@ -13,3 +13,11 @@
         width: 98.089vw;
     }
 }
+
+@media screen and (max-width: 767px) { 
+    .banner__content {
+        width: 414px;  
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+}

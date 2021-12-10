@@ -13,3 +13,13 @@
         border-radius: 0.194vw;
     }
 }
+
+
+@media screen and (max-width: 767px) { 
+    .filter {
+        display: none;
+        width: 414px;
+        height: 1910px;
+        border-radius: 3px;
+    }
+}

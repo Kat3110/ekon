@@ -89,3 +89,47 @@
         font-size: 0.645vw;
     }
 }
+
+@media screen and (max-width: 767px){
+    .filter__price {
+        width: 300px;
+        margin: 0 auto;
+        font-size: 14px;
+        line-height: 10px;
+        margin: 0 auto 67px;
+    
+    }
+    
+    .price {
+        width: 295px;
+        margin: 0 0 0 auto;
+        border-top: 3px solid #DEE1E8;
+        margin-bottom: 23px;
+    }
+    
+    .filter__price .bar {
+        width: 182px;
+        border-top: 3px solid #38D3E8;
+        top: 63px;
+        left: 3px;
+    }
+    
+    .filter__price .bar:before {
+        width: 1px;
+        height: 18px;
+        left: 0;
+        bottom: -7px;
+        border-left: 3px solid #38D3E8;
+    }
+    
+    .filter__price .bar:after {
+        width: 1px;
+        height: 18px;
+        bottom: -7px;
+        border-right: 3px solid #38D3E8;
+    }
+    
+    .filter__price span {
+        font-size: 10px;
+    }
+}

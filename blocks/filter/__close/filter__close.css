@@ -11,3 +11,10 @@
         margin: 0 0 3.871vw;
     }
 }
+
+@media screen and (max-width: 767px){
+    .filter__close {
+        background: transparent url(../../../images/close.svg) no-repeat 309px 36px;
+        margin: 0 0 60px;
+    }
+}

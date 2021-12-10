@@ -33,3 +33,19 @@
         margin: -0.452vw 0 3.226vw 0.323vw;
     }
 }
+
+@media screen and (max-width: 767px){
+    .footer {
+        width: 399px;
+        padding-left: 15px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+    .footer .logo__image {
+        display: block;
+        margin: 0px 0 41px 0;
+        width: 280px;
+        height: 66px;
+    }
+}

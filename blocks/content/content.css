@@ -5,8 +5,11 @@
 .content section {
     max-width: 1920px;
 }
-@media screen and (max-width: 1570px){
-    /* .content {
-        max-width: 751px;
-    } */
+@media screen and (max-width: 767px){
+    .content {
+        background: white;
+    }
+    .content section {
+        background: #fbfbfb;
+    }
 }

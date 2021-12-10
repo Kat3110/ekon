@@ -14,6 +14,10 @@
     margin-left: 5px;
 }
 
+.catalog__price_sort {
+    display: none;
+}
+
 @media screen and (max-width: 1570px){
     .catalog__price {
         font-size: 1.097vw;
@@ -26,5 +30,24 @@
     
     .catalog__price span {
         margin-left: 0.323vw;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .catalog__price {
+        display: none;
+    }
+
+    .catalog__price_sort {
+        background: transparent url(../../../images/Vector.svg) 113px 7px no-repeat;
+        position: relative;
+        padding-right: 33px;
+        margin-top: 30px;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: #2B2E34;
+        font-weight: 500;
+        display: block;
     }
 }

@@ -13,3 +13,12 @@
         margin: 2.194vw 0 0 6vw;
     }
 }
+
+@media screen and (max-width: 767px){
+    .filter__dropping {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 34px 0 0 93px;
+    }
+}

@@ -4,13 +4,29 @@
     line-height: 23px;
     color: #7E838C;
     margin: 32px 0 0;
+    display: flex;
+    flex-direction: row;
 }
 
 .catalog__product span {
     font-weight: 500;
     color: #2B2E34;
     font-size: 18px;
+    margin-right: 0;
+}
+.catalog__product span i {
+    font-style: normal;
     margin-right: 5px;
+}
+.catalog__product span i:last-of-type {
+    display: none;
+}
+.catalog__filter {
+    display: none;
+    background: transparent url(../../../images/bar-chart-2.svg) no-repeat 7px -4px;
+    padding-left: 47px;
+    margin-right: 109px;
+    font-weight: 500;
 }
 
 @media screen and (max-width: 1570px){
@@ -23,5 +39,31 @@
     .catalog__product span {
         font-size: 1.161vw;
         margin-right: 0.323vw;
+    }
+}
+
+@media screen and (max-width: 767px){   
+    .catalog__product {
+        position: absolute;
+        top: -79px;
+        left: 0px;
+        font-size: 18px;
+        line-height: 23px;
+        font-weight: 400;
+        color: #7E838C;
+        margin: 32px 0 0;
+    }
+    .catalog__product span {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .catalog__filter {
+        display: block;
+    }
+    .catalog__product span i:first-of-type {
+        display: none;
+    }
+    .catalog__product span i:last-of-type {
+        display: inline-block;
     }
 }

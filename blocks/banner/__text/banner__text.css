@@ -13,3 +13,11 @@
         margin: 0 0 1.355vw;
     }
 }
+
+@media screen and (max-width: 767px) { 
+    .banner__text {
+        font-size: 28px;
+        line-height: 36px;
+        margin: 41px 35px 12px;
+    }
+}

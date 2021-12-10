@@ -67,3 +67,32 @@
         margin-left: 0.194vw;
     }
 }
+
+
+@media screen and (max-width: 767px){
+    .product__price {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        margin: auto 14px 15px;
+    }
+    .product__price span{
+        font-size: 11px;
+        line-height: 20px;
+        margin-right: 2px;
+    }
+    .product__price_discount {
+        font-size: 12px;
+        line-height: 11px;
+        margin: 0;
+        bottom: 3px;
+        left: 56px;
+        width: 52px;
+        background: url(../../../images/redline.svg) no-repeat -2px 0;
+    }
+    .product__price_discount span {
+        font-size: 7px;
+        line-height: 10px;
+        margin-left: 3px;
+    }
+}

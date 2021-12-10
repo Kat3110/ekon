@@ -14,3 +14,10 @@
         margin-right: 12.258vw;
     }
 }
+
+@media screen and (max-width: 767px){
+    .footer__category {
+        width: 256px;
+        margin: 0 0 36px;
+    }
+}

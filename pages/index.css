@@ -72,6 +72,7 @@
 @import url(../blocks/product/__pic/product__pic.css);
 @import url(../blocks/product/__sale/product__sale.css);
 @import url(../blocks/product/__text/product__text.css);
+@import url(../blocks/product/__show/product__show.css);
 
 @import url(../blocks/seo/seo.css);
 @import url(../blocks/seo/__title/seo__title.css);

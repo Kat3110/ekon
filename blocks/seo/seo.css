@@ -11,3 +11,9 @@
         padding-bottom: 10.645vw;
     }
 }
+
+@media screen and (max-width: 767px){
+    .seo {
+        display: none;
+    }
+}

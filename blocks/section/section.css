@@ -9,3 +9,12 @@
         margin: 0 auto 10vw;
     }
 }
+
+
+@media screen and (max-width: 767px) { 
+    .section {
+        width: 414px;
+        margin: 0 auto 0;
+        padding-top: 67px;
+    }
+}

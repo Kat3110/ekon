@@ -19,3 +19,14 @@
         padding-left: 1.290vw;
     }
 }
+
+
+@media screen and (max-width: 767px){
+    .product__text {
+        background: transparent url(../../../images/procent.svg) no-repeat 9px 2px / 13%;
+        font-size: 12.2917px;
+        line-height: 16px;
+        margin: 7px 0 7px 2px;
+        padding-left: 8px;
+    }
+}

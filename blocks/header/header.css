@@ -11,3 +11,12 @@
         width: 98.089vw;
     }
 }
+
+@media screen and (max-width: 767px) { 
+    .header {
+        width: 414px;
+        margin: o auto;
+        align-items: center;
+        position: relative;
+    }
+}

@@ -1,11 +1,19 @@
 .banner {
     height: 294px;
-    background: linear-gradient(to right, #1DBCD1, #3DDCF1);
+    background: linear-gradient(to right, #1DBCD1, #3DDCF1) !important;
     margin: 0 auto;
 }
 
 @media screen and (max-width: 1570px){
     .banner {
         height: 18.968vw;
+    }
+}
+
+
+@media screen and (max-width: 767px) { 
+    .banner {
+        height: 505px;
+        width: 414px;
     }
 }

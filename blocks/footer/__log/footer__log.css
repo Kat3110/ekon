@@ -14,3 +14,15 @@
         height: 1.742vw;
     }
 }
+
+@media screen and (max-width: 767px){
+    .footer__log {
+        margin: 0 7px 0 17px;
+        width: auto;
+        height: auto;
+    }
+    .footer__name {
+        width: auto;
+        height: auto;
+    }
+}

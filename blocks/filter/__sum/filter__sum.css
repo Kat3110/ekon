@@ -13,3 +13,11 @@
         line-height: 1.484vw;
     }  
 }
+
+@media screen and (max-width: 767px){
+    .filter__sum {
+        margin: 0 0 41px;
+        font-size: 18px;
+        line-height: 23px;
+    }
+}

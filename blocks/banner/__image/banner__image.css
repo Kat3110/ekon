@@ -3,10 +3,28 @@
     bottom: 0;
     left: 395px;
 }
+.banner__image_min {
+    display: none;
+}
 @media screen and (max-width: 1570px){
     .banner__image {
         left: 25.484vw; 
         width: 54.129vw;
         height: 18.968vw;
+    }
+}
+
+
+@media screen and (max-width: 767px) { 
+    .banner__image_min  {
+        height: 449px;
+        width: 451px;
+        display: block;
+        position: absolute;
+        bottom: -81px;
+        object-fit: contain;
+    }
+    .banner__image {
+        display: none;
     }
 }

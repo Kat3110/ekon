@@ -22,3 +22,18 @@
         height: 15.871vw;
     }
 }
+
+@media screen and (max-width: 767px){
+    .product__box:nth-of-type(1n) .product__image {
+        width: 121px;
+        height: 147px;
+    }
+    .product__box:nth-of-type(2n) .product__image {
+        margin-top: 12px;
+        width: 152px;
+        height: 143px;
+    }
+    .product__box:nth-of-type(3n) {
+        display: none;
+    }
+}

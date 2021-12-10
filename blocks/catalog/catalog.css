@@ -3,9 +3,18 @@
     margin: 0 18px 0 0;
 }
 
+
+
 @media screen and (max-width: 1570px){
     .catalog {
         width: 72.968vw;
         margin: 0 1.161vw 0 0;
+    } 
+}
+
+@media screen and (max-width: 767px){
+    .catalog {
+        width: 372px;
+        margin: 0 auto 0;
     } 
 }

@@ -3,10 +3,16 @@
     margin-right: 200px;
 }
 
-
-@media screen and (max-width: 1570px){
+@media screen and (max-width: 1570px) {
     .footer__contacts {
         width: 18.065vw;
         margin-right: 12.903vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__contacts {
+        width: 280px;
+        margin: 45px 0 60px 0;
     }
 }

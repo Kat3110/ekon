@@ -22,3 +22,16 @@
       margin: 0 1.935vw 4.194vw;
    }
 }
+
+@media screen and (max-width: 767px){
+   .filter__heating {
+      margin: 0 30px 60px;
+   }
+   .filter__heating:nth-child(3) {
+      margin: 0 30px 67px;
+   }
+   
+   .filter__heating:nth-child(7) {
+      margin: 0 30px 65px;
+   }
+}

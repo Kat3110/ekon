@@ -11,3 +11,12 @@
         line-height: 1.290vw;
     }
 }
+
+@media screen and (max-width: 767px){
+    .fotter__copyright {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 30px 0;
+    }
+}

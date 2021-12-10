@@ -16,3 +16,12 @@
         padding-top: 1.613vw;
     }
 }
+
+@media screen and (max-width: 767px){
+    .footer__politic {
+        width: 374px;
+        margin: 25px 0 0;
+        padding-top: 25px;
+        flex-direction: column;
+    }
+}
