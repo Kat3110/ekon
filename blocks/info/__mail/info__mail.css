@@ -35,11 +35,11 @@
 
 @media screen and (max-width: 767px) {
     .footer .info__mail {
-        background: url(../../../images/mailfooter.svg) no-repeat 0 -3px;
+        background: url(../../../images/mailfooter.svg) no-repeat 2px -6px;
         padding-left: 38px;
         font-size: 18px;
         line-height: 20px;
         font-weight: 600;
-        margin-bottom: 29px;
+        margin-bottom: 39px;
     }
 }

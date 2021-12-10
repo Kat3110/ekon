@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 767px) { 
     .header__nav_shop {
-        background: transparent url(../../../../images/shp.svg) no-repeat center / 125%;
+        background: transparent url(../../../../images/shp.svg) no-repeat center / 135%;
         width: 19px;
         height: 23px;
     }

@@ -3,10 +3,10 @@
     line-height: 28px;
     color: #2B2E34;
     width: 103px;
-    height: 28px;
-    margin: 45px auto 120px;
-    border-bottom: 2px solid #2B2E34;;
-    text-align: center;
+    height: 25px;
+    margin: 28px auto 120px;
+    border-bottom: 2px solid #2B2E34;
+    text-align: left;
     display: none;
     font-weight: 600;
     cursor: pointer;

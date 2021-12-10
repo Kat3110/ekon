@@ -15,5 +15,6 @@
     .banner {
         height: 505px;
         width: 414px;
+        overflow: hidden;
     }
 }

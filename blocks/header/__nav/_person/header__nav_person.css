@@ -23,5 +23,6 @@
         background: transparent url(../../../../images/person.svg) no-repeat center / 123%;
         width: 20px;
         height: 25px;
+        margin: 0 20px 0;
     }
 }

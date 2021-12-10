@@ -17,12 +17,13 @@
 
 @media screen and (max-width: 767px) { 
     .banner__image_min  {
-        height: 449px;
-        width: 451px;
+        height: 426px;
+        width: 416px;
         display: block;
         position: absolute;
-        bottom: -81px;
+        bottom: -84px;
         object-fit: contain;
+        left: -2px;
     }
     .banner__image {
         display: none;
