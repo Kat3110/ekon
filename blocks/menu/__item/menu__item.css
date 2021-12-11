@@ -1,10 +1,10 @@
 .menu__item {
     font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 20px;
     color: #2B2E34;
-    padding-left: 40px;
-    margin: 23px auto;
+    padding-left: 41px;
+    margin: 26px auto;
 }
 
 .menu__item:nth-of-type(1n) {

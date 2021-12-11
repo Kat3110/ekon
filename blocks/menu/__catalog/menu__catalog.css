@@ -1,5 +1,5 @@
 .menu__catalog {
-    margin-left: 18px;
+    margin-left: 19px;
 }
 
 .menu__catalog p {
@@ -7,28 +7,28 @@
     font-size: 16px;
     line-height: 20px;
     color: #2B2E34;
-    padding-left: 40px;
-    background: transparent url(../../../images/batery.svg) no-repeat 0px 1px;
+    padding-left: 42px;
+    background: transparent url(../../../images/batery.svg) no-repeat 1px 0px;
     position: relative;
     margin-bottom: 30px;
 }
 
 .menu__catalog p::after {
     content: '';
-    width: 15px;
+    width: 17px;
     height: 15px;
     position: absolute;
     top: 0;
-    right: 21px;
-    background: transparent url(../../../images/Vector.svg) no-repeat 2px 8px;;
+    right: 17px;
+    background: transparent url(../../../images/Vector.svg) no-repeat 2px 7px;
 }
 
 .menu__catalog:last-of-type {
-    padding-bottom: 74px;
+    padding-bottom: 61px;
 }
 
 .menu__catalog:last-of-type li {
-    margin-bottom: 27px;
+    margin-bottom: 30px;
 }
 
 .search .menu__catalog {
