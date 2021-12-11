@@ -6,3 +6,8 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+.search .menu__up {
+    margin: 0 auto 95px;
+}

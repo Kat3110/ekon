@@ -1,0 +1,16 @@
+.search {
+    width: 414px;
+    margin: 0 auto;
+    background: rgb(171, 245, 239)!important;
+    height: 969px;
+}
+
+.search ul,
+.search li,
+.search a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #2B2E34;
+}

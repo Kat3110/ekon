@@ -34,4 +34,10 @@
         height: 39px;
         margin: 0;
     }
+    .search .logo__image_min {
+        display: block;
+        width: 181px;
+        height: 39px;
+        margin: 0;
+    }
 }
