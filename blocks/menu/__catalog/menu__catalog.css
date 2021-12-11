@@ -32,9 +32,10 @@
 }
 
 .search .menu__catalog {
-    margin-bottom: 55px;
+    margin: 0 0 0 54px;
     font-weight: normal;
     font-size: 14px;
     line-height: 25px;
     color: #2B2E34;
+
 }

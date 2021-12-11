@@ -1,14 +1,19 @@
 .menu__close {
-    width: 18px;
+    /* width: 18px;
     height: 18px;
+    cursor: pointer;
+    background: transparent url(../../../images/close.svg) no-repeat center;
+    float: right; */
+    width: 24px;
+    height: 25px;
     cursor: pointer;
     background: transparent url(../../../images/close.svg) no-repeat center;
     float: right;
 }
 
 .menu__close_search {
-    width: 18px;
-    height: 18px;
+    width: 24px;
+    height: 25px;
     cursor: pointer;
     background: transparent url(../../../images/close.svg) no-repeat center;
     float: right;
