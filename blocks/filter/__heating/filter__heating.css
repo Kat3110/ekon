@@ -5,8 +5,12 @@
    margin: 0 30px 61px;
 }
 
+.filter__heating:nth-child(6) {
+   margin: 0 30px 59px;
+}
+
 .filter__heating:nth-child(7) {
-   margin: 0 30px 65px;
+   margin: 0 30px 58px;
 }
 
 

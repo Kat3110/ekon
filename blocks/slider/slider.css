@@ -149,9 +149,10 @@ works properly when clicked or hovered */
 .second-value {
     position: relative;
     font-weight: 500;
-    font-size: 9px;
+    font-size: 14px;
     line-height: 8px;
     display: flex;
+    margin: 5px 0 0 -4px;
 }
 
 .filter__price .first-value,
@@ -161,7 +162,7 @@ works properly when clicked or hovered */
 }
 
 .filter__price .second-value {
-    margin-left: 60px;
+    margin-left: 112px;
 }
 
 /* .slider span:after {
