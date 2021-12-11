@@ -54,7 +54,6 @@
 @import url(../blocks/filter/__price/filter__price_min.css);
 @import url(../blocks/filter/__price/filter__price_max.css);
 @import url(../blocks/filter/__sum/filter__sum.css);
-@import url(../blocks/filter/__box/filter__box.css);
 
 @import url(../blocks/checkbox/checkbox.css);
 
@@ -108,3 +107,5 @@
 @import url(../blocks/search/search.css);
 @import url(../blocks/search/__text/search__text.css);
 @import url(../blocks/search/__form/search__form.css);
+
+@import url(../blocks/slider/slider.css);

@@ -1,0 +1,177 @@
+.ui-helper-hidden {
+	display: none;
+}
+
+
+.ui-front {
+	z-index: 100;
+}
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.ui-slider {
+	position: relative;
+	text-align: left;
+}
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 3px;
+	height: 14px;
+	cursor: default;
+	-ms-touch-action: none;
+	touch-action: none;
+}
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background-position: 0 0;
+}
+
+/* support: IE8 - See #6727 */
+.ui-slider.ui-state-disabled .ui-slider-handle,
+.ui-slider.ui-state-disabled .ui-slider-range {
+	filter: inherit;
+}
+
+.ui-slider-horizontal {
+	height: 1px;
+}
+.ui-slider-horizontal .ui-slider-handle {
+	top: -9px;
+}
+.ui-slider-horizontal .ui-slider-range {
+	top: -3px;
+	height: 100%;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+	left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+
+.ui-slider-vertical {
+	width: .8em;
+	height: 100px;
+}
+.ui-slider-vertical .ui-slider-handle {
+	left: -.3em;
+	margin-left: 0;
+	margin-bottom: -.6em;
+}
+.ui-slider-vertical .ui-slider-range {
+	left: 0;
+	width: 100%;
+}
+.ui-slider-vertical .ui-slider-range-min {
+	bottom: 0;
+}
+.ui-slider-vertical .ui-slider-range-max {
+	top: 0;
+}
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+
+/* We use html here because we need a greater specificity to make sure disabled
+works properly when clicked or hovered */
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-button:hover,
+.ui-button:focus {
+	border-left: 3px solid #38D3E8;
+}
+
+
+/* Corner radius */
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+	border-top-left-radius: 0;
+}
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+	border-top-right-radius: 0;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+	border-bottom-left-radius: 0;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+	border-bottom-right-radius: 0;
+}
+
+
+.ui-slider {
+    height: 0px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    border-top: 3px solid #DEE1E8 !important;
+    margin-bottom: 23px;
+}
+.ui-slider-range {
+    border-top: 3px solid #38D3E8 !important;
+}
+.ui-slider span:focus { outline: none; }
+.first-value,
+.second-value {
+    position: relative;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 8px;
+    display: flex;
+}
+
+.filter__price .first-value,
+.filter__price .second-value {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.filter__price .second-value {
+    margin-left: 60px;
+}
+
+/* .slider span:after {
+    position: absolute;
+    content: "";
+    font-size: 14px;
+    line-height: 10px;
+    top: 20px
+} */
+
+/* .filter__price .second-value {
+    margin: 0 0 0 112px;
+} */

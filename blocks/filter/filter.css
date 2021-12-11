@@ -30,3 +30,11 @@
     display: block;
     height: auto;
 }
+
+.filter__apply {
+    display: flex;
+    justify-content: space-between;
+    width: 414px;
+    height: 115px;
+    background: rgb(255, 255, 255) !important;
+}

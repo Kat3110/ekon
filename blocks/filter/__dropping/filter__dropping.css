@@ -4,6 +4,8 @@
     line-height: 20px;
     color: #7E838C;
     margin: 34px 0 0 93px;
+    background: transparent url(../../../images/close.svg) no-repeat 309px 36px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1570px){
@@ -11,6 +13,8 @@
         font-size: 1.032vw;
         line-height: 1.290vw;
         margin: 2.194vw 0 0 6vw;
+        background: transparent url(../../../images/close.svg) no-repeat 19.935vw 2.323vw / 4.5%;
+        margin: 0 0 3.871vw;
     }
 }
 
@@ -20,5 +24,18 @@
         font-size: 16px;
         line-height: 20px;
         margin: 34px 0 0 93px;
+        background: transparent url(../../../images/close.svg) no-repeat 90px 3px;
+        padding-right: 72px;
+        display: none;
     }
+}
+
+.filter__apply .filter__dropping {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 45px 0 50px 0;
+        background: transparent url(../../../images/close.svg) no-repeat 90px 3px;
+        padding-right: 72px;
+        display: block;
 }

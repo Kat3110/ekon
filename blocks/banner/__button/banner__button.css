@@ -44,4 +44,16 @@
         margin: 0;
         padding: 0 9px 0 0;
     }
+    .filter__apply .banner__button {
+        width: 203px;
+        height: 54px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        background: #38D3E8;
+        border-radius: 2px;
+        margin: 28px 0 33px 22px;
+    }
 }
