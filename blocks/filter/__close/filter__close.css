@@ -7,6 +7,13 @@
     cursor: pointer;
 }
 
+
+@media screen and (max-width: 1560px){
+    .filter__close {
+        
+    }
+} 
+
 @media screen and (max-width: 767px){
     .filter__close {
         margin: 0 ;
