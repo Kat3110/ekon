@@ -45,7 +45,6 @@
 @import url(../blocks/section/__box/section__box.css);
 
 @import url(../blocks/filter/filter.css);
-/* @import url(../blocks/filter/__box/filter__box.css); */
 @import url(../blocks/filter/__strainer/filter__strainer.css);
 @import url(../blocks/filter/__close/filter__close.css);
 @import url(../blocks/filter/__dropping/filter__dropping.css);
@@ -55,6 +54,7 @@
 @import url(../blocks/filter/__price/filter__price_min.css);
 @import url(../blocks/filter/__price/filter__price_max.css);
 @import url(../blocks/filter/__sum/filter__sum.css);
+@import url(../blocks/filter/__box/filter__box.css);
 
 @import url(../blocks/checkbox/checkbox.css);
 
@@ -88,7 +88,6 @@
 @import url(../blocks/footer/__inst/footer__inst.css);
 
 @import url(../blocks/footer/__log/footer__log.css);
-/* @import url(../blocks/footer/__reference/footer__reference.css); */
 @import url(../blocks/footer/__politic/footer__politic.css);
 @import url(../blocks/footer/__info/footer__info.css);
 @import url(../blocks/footer/__designed/footer__designed.css);

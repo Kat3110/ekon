@@ -14,6 +14,47 @@
 <body>
   <div class="page">
     <header class="header">
+      <div class="menu" style="display: none;">
+        <div class="menu__up">
+            <div class="logo">
+                <a href="" target="_blank">
+                    <!-- <img class="logo__image" src="images/logo.svg" alt="."> -->
+                    <img class="logo__image_min" src="images/logo-mob.svg" alt=".">
+                </a>
+            </div>
+            <div class="menu__close"></div>
+        </div>
+        <nav class="menu__catalog">
+            <p>Отопительное оборудование</p>
+            <ul>
+                <li><a href="" target="_blank">Радиаторы отопления</a></li>
+                <li><a href="" target="_blank">Конвекторы отопления</a></li>
+                <li><a href="" target="_blank">Полотенцесушители</a></li>
+                <li><a href="" target="_blank">Арматура для радиаторов и конвектеров</a></li>
+            </ul>
+        </nav>
+        <div class="menu__additionally">
+            <div class="menu__border menu__item">
+                <a href="" target="_blank">Комплектация объектовсантехникой</a>
+            </div>
+            <div class="menu__item">
+                <a href="" target="_blank">Дозаторы антисептика и стойки для диспенсера</a>
+            </div>
+            <div class="menu__border menu__item">
+                <a href="" target="_blank">Водосберегающая сантехника</a>
+            </div>
+        </div>
+        <nav class="menu__catalog">
+            <ul>
+                <li><a href="" target="_blank">Наше производство</a></li>
+                <li><a href="" target="_blank">Готовые решения</a></li>
+                <li><a href="" target="_blank">О компании</a></li>
+                <li><a href="" target="_blank">Доставка и оплата</a></li>
+                <li><a href="" target="_blank">Сертификаты</a></li>
+                <li><a href="" target="_blank">Новости</a></li>
+            </ul>
+        </nav>
+      </div>
       <div class="header__filter">
         <div class="header__filter_nav"></div>
         <div class="header__filter_nav"></div>
@@ -76,7 +117,7 @@
             <div class="filter__heating">
               <div class="filter__heating_text">
                 <p class="filter__heating_button">Отопительное оборудование</p>
-                <div>
+                <div class="element__block">
                   <p class="checkbox">
                     <input id="check1" type="checkbox" name="check" value="check1" checked>
                     <label for="check1">Радиаторы отопления</label>
@@ -503,6 +544,7 @@
       </div>
     </footer>
   </div>
+  <script src="jquery.js"></script>
   <script src="script.js"></script>
 </body>
 

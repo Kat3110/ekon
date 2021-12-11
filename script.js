@@ -1,45 +1,79 @@
+// код для скрытия и открытия чекбоксов
 // определяем кнопку-стрелку
 let buttonArrow = document.getElementsByClassName('filter__heating_button');
 
 //проходим по всем классам и при клике на определенный запускаем функцию
 for (var i = 0; i < buttonArrow.length; i++) {
-    buttonArrow[i].addEventListener('click', function () {
+  buttonArrow[i].addEventListener('click', function () {
 
-        let sibling = this.nextElementSibling;
-        // sibling.style.display = 'none';
+    let sibling = this.nextElementSibling;
+    // sibling.style.display = 'none';
 
-        //  делаем проверку на наличие класса
-        if (sibling.classList.contains('element__none')) {
+    //  делаем проверку на наличие класса
+    if (sibling.classList.contains('element__none')) {
 
-        // если класс есть, удаляем его
-        sibling.classList.remove('element__none');
+      // если класс есть, удаляем его
+      sibling.classList.remove('element__none');
 
-        } else {
-        // если класса нет, добавляем его
-        sibling.classList.add('element__none');
+    } else {
+      // если класса нет, добавляем его
+      sibling.classList.add('element__none');
     }
-    
+
   }, false);
 }
 
-// прогресс бар
-// let progressBar = document.getElementsByClassName('myBar');
-// for (var i = 0; i < progressBar.length; i++) {
-//  progressBar[i].addEventListener('click', function clickBar() {
+//код для открытия меню
+// определяем кнопку меню и кнопку закрытия
+let openMenu = document.getElementsByClassName('header__filter')[0];
+let menu = document.getElementsByClassName('menu')[0];
+let closeMenu = document.getElementsByClassName('menu__close')[0];
 
-//     let parent = this.parentNode;
-//     let ElementSibling = parent.nextElementSibling
+// клик на кнопку открытия меню
+openMenu.addEventListener('click', function () {
 
-//     // делаем проверку на наличие класса
-//     if (this.classList.contains('colorBar') && ElementSibling.classList.contains('colorPercent')) {
-//       // если класс есть, удаляем его
-//       this.classList.remove('colorBar');
-//       ElementSibling.classList.remove('colorPercent');
+  menu.style.display = 'block';
 
-//     } else {
-//       // если класса нет, добавляем его
-//       this.classList.add('colorBar');
-//       ElementSibling.classList.add('colorPercent');
-//     }
-//   }, false);
-// }
+}, false);
+
+// клик на кнопку закрытия меню
+closeMenu.addEventListener('click', function () {
+
+  menu.style.display = 'none';
+
+}, false);
+
+//код для открытия фильтра
+// определяем кнопку фильтра и кнопку закрытия
+let openFilter = document.getElementsByClassName('catalog__filter')[0];
+let filter = document.getElementsByClassName('filter')[0];
+let closeFilter = document.getElementsByClassName('filter__close')[0];
+
+// клик на кнопку открытия фильтра
+openFilter.addEventListener('click', function () {
+
+  if (filter.classList.contains('filter__block')) {
+
+    // если класс есть, удаляем его
+    filter.classList.remove('filter__block');
+
+  } else {
+    // если класса нет, добавляем его
+    filter.classList.add('filter__block');
+  }
+
+}, false);
+
+closeFilter.addEventListener('click', function () {
+
+  if (filter.classList.contains('filter__block')) {
+
+    // если класс есть, удаляем его
+    filter.classList.remove('filter__block');
+
+  } else {
+    // если класса нет, добавляем его
+    filter.classList.add('filter__block');
+  }
+
+}, false);

@@ -2,6 +2,10 @@
     width: 414px;
     margin: 0 auto;
     background: #fff!important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
 }
 
 .menu ul,
