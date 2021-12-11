@@ -30,3 +30,11 @@
 .menu__catalog:last-of-type li {
     margin-bottom: 27px;
 }
+
+.search .menu__catalog {
+    margin-bottom: 55px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: #2B2E34;
+}
