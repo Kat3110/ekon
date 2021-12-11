@@ -2,7 +2,9 @@
     width: 1540px;
     margin: 0 auto 155px;
 }
-
+.element__none {
+    display: none;
+}
 @media screen and (max-width: 1570px){
     .section {
         width: 98.089vw;
