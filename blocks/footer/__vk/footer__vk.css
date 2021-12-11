@@ -3,8 +3,8 @@
     line-height: 25px;
     color: #7E838C;
     margin-right: 15px;
-    background: transparent url(../../../images/vk.svg) no-repeat 0 6px;
-    padding-left: 33px !important;
+    background: transparent url(../../../images/vk.svg) no-repeat 3px 6px;
+    padding-left: 34px !important;
 }
 
 @media screen and (max-width: 1570px){

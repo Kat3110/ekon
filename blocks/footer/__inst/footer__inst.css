@@ -1,8 +1,8 @@
 .footer__inst {
-    margin-left: 20px !important;
+    margin-left: 22px !important;
     font-size: 16px;
     line-height: 25px;
-    background: transparent url(../../../images/inst.svg) no-repeat 0 6px;
+    background: transparent url(../../../images/inst.svg) no-repeat 2px 5px;
     padding-left: 25px !important;
 }
 
