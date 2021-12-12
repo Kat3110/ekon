@@ -331,5 +331,80 @@ label:before {
     top: 14px;
     background: transparent url(../../images/cover.svg) no-repeat center;
     background-size: 95%;
+  }
 }
+
+.checkbox__color input[type=checkbox]:checked + label:before {
+  background: #FF6060;
+}
+
+.checkbox__color_red label:before {
+  background: #FF6060;
+}
+.checkbox__color_red input[type=checkbox]:checked + label:before {
+  background: #FF6060;
+}
+
+.checkbox__color_yellow label:before {
+  background: #FFDC60;
+}
+.checkbox__color_yellow input[type=checkbox]:checked + label:before {
+  background: #FFDC60;
+}
+
+.checkbox__color_green label:before {
+  background: #72E191;
+}
+.checkbox__color_green input[type=checkbox]:checked + label:before {
+  background: #72E191;
+}
+
+.checkbox__color_blue label:before {
+  background: #6070FF;
+}
+.checkbox__color_blue input[type=checkbox]:checked + label:before {
+  background: #6070FF;
+}
+
+.checkbox__color_purple label:before {
+  background: #A660FF;
+}
+.checkbox__color_purple input[type=checkbox]:checked + label:before {
+  background: #A660FF;
+}
+
+.checkbox__color_pink label:before {
+  background: #FF60AC;
+}
+.checkbox__color_pink input[type=checkbox]:checked + label:before {
+  background: #FF60AC;
+}
+
+.checkbox__color_beige label:before {
+  background: #EEC3AB;
+}
+.checkbox__color_beige input[type=checkbox]:checked + label:before {
+  background: #EEC3AB;
+}
+
+.checkbox__color_white label:before {
+  background: #FFFFFF;
+
+}
+.checkbox__color_white input[type=checkbox]:checked + label:before {
+  background: #FFFFFF;
+}
+
+.checkbox__color_black label:before {
+  background: #292929;
+}
+.checkbox__color_black input[type=checkbox]:checked + label:before {
+  background: #292929;
+}
+
+.checkbox__color_gray label:before {
+  background: #9D9D9D;
+}
+.checkbox__color_gray input[type=checkbox]:checked + label:before {
+  background: #9D9D9D;
 }
