@@ -33,7 +33,4 @@
         width: 152px;
         height: 143px;
     }
-    .product__box:nth-of-type(3n) {
-        display: none;
-    }
 }

@@ -165,17 +165,19 @@ works properly when clicked or hovered */
     margin-left: 112px;
 }
 
-/* .slider span:after {
-    position: absolute;
-    content: "";
-    font-size: 14px;
-    line-height: 10px;
-    top: 20px
-} */
-
-/* .filter__price .second-value {
-    margin: 0 0 0 112px;
-} */
+@media screen and (max-width: 1560px){
+	.filter__block .ui-slider span:focus { outline: none; }
+	.first-value,
+	.second-value {
+		font-size: 0.897vw;
+		line-height: 0.449vw;
+		display: flex;
+		margin: 1.026vw 0.256vw 0 -0.256vw;
+	}
+	.filter__price .second-value {
+		margin-left: 7.179vw;
+	}
+}
 
 @media screen and (max-width: 767px){
 	.filter__block .ui-slider span:focus { outline: none; }

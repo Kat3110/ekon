@@ -2,12 +2,6 @@
     width: 1540px;
     margin: 0 auto 155px;
 }
-.element__none {
-    display: none;
-}
-.element__block {
-    margin-top: 22px;
-}
 
 
 @media screen and (max-width: 1570px){
@@ -24,8 +18,4 @@
         margin: 0 auto 0;
         padding-top: 69px;
     }
-    .filter__block .element__block {
-        margin-top: 28px;
-    }
-    
 }
