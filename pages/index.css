@@ -56,6 +56,7 @@
 @import url(../blocks/filter/__sum/filter__sum.css);
 
 @import url(../blocks/checkbox/checkbox.css);
+@import url(../blocks/checkbox/__color/checkbox__color.css);
 
 @import url(../blocks/catalog/catalog.css);
 @import url(../blocks/catalog/__sorting/catalog__sorting.css);
