@@ -24,4 +24,8 @@
         margin: 0 auto 0;
         padding-top: 69px;
     }
+    .filter__block .element__block {
+        margin-top: 25px;
+    }
+    
 }
