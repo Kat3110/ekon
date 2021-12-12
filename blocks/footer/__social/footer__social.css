@@ -6,12 +6,6 @@
     margin: 0 0 21px;
 }
 
-.footer__block {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 @media screen and (max-width: 1570px){
     .footer__social {
         font-size: 1.161vw;

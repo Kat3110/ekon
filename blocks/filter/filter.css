@@ -4,9 +4,7 @@
     background: #F4F4F4;
     border-radius: 3px;
 }
-.filter__apply {
-    display: none;
-}
+
 @media screen and (max-width: 1570px){
     .filter {
         width: 22.903vw;
@@ -24,19 +22,4 @@
         height: 1910px;
         border-radius: 3px;
     }
-    .filter__apply {
-        display: flex;
-        justify-content: space-between;
-        width: 414px;
-        height: 115px;
-        background: rgb(255, 255, 255) !important;
-    }
-}
-
-.filter__block {
-    position: absolute;
-    z-index: 10;
-    top: 38px;
-    display: block;
-    height: auto;
 }

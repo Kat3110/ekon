@@ -8,14 +8,14 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__filter/header__filter.css);
 @import url(../blocks/header/__filter/_nav/header__filter_nav.css);
-
+@import url(../blocks/header/__search/header__search.css);
+@import url(../blocks/header/__search/_input/header__search_input.css);
+@import url(../blocks/header/__search/_icon/header__search_icon.css);
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__nav/_car/header__nav_car.css);
 @import url(../blocks/header/__nav/_person/header__nav_person.css);
 @import url(../blocks/header/__nav/_shop/header__nav_shop.css);
 
-@import url(../blocks/header/search/_icon/header__search_icon.css);
-@import url(../blocks/header/search/_input/header__search_input.css);
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__image/logo__image.css);
@@ -54,6 +54,8 @@
 @import url(../blocks/filter/__price/filter__price_min.css);
 @import url(../blocks/filter/__price/filter__price_max.css);
 @import url(../blocks/filter/__sum/filter__sum.css);
+@import url(../blocks/filter/__block/filter__block.css);
+@import url(../blocks/filter/__apply/filter__apply.css);
 
 @import url(../blocks/checkbox/checkbox.css);
 
@@ -61,6 +63,7 @@
 @import url(../blocks/catalog/__sorting/catalog__sorting.css);
 @import url(../blocks/catalog/__product/catalog__product.css);
 @import url(../blocks/catalog/__price/catalog__price.css);
+@import url(../blocks/catalog/__filter/catalog__filter.css);
 
 @import url(../blocks/product/product.css);
 @import url(../blocks/product/__status/product__status.css);
@@ -85,7 +88,6 @@
 @import url(../blocks/footer/__social/footer__social.css);
 @import url(../blocks/footer/__vk/footer__vk.css);
 @import url(../blocks/footer/__inst/footer__inst.css);
-
 @import url(../blocks/footer/__log/footer__log.css);
 @import url(../blocks/footer/__politic/footer__politic.css);
 @import url(../blocks/footer/__info/footer__info.css);
@@ -94,6 +96,8 @@
 @import url(../blocks/footer/__confid/footer__confid.css);
 @import url(../blocks/footer/__category/footer__category.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__block/footer__block.css);
+@import url(../blocks/footer/__name/footer__name.css);
 
 
 @import url(../blocks/menu/menu.css);

@@ -1,22 +1,15 @@
 .filter__close {
     display: flex;
-    /* background: transparent url(../../../images/close.svg) no-repeat 309px 36px;
-    margin: 0 0 60px; */
     margin-bottom: 59px;
     justify-content: flex-start;
     cursor: pointer;
 }
 
-
-@media screen and (max-width: 1560px){
-    .filter__close {
-        
-    }
-} 
-
 @media screen and (max-width: 767px){
-    .filter__close {
+    .filter__apply .filter__close {
         margin: 0;
         padding-bottom: 51px;
+        border: 0;
+        background: rgb(255, 255, 255);
     }
 } 

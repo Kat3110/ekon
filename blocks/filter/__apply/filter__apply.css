@@ -1,0 +1,13 @@
+.filter__apply {
+    display: none;
+}
+
+@media screen and (max-width: 767px) { 
+    .filter__apply {
+        display: flex;
+        justify-content: space-between;
+        width: 414px;
+        height: 115px;
+        background: rgb(255, 255, 255) !important;
+    }
+}

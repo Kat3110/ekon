@@ -45,6 +45,7 @@
         padding: 0 7px 0 0;
     }
     .filter__apply .banner__button {
+        display: flex;
         width: 201px;
         height: 54px;
         font-weight: 400;
@@ -56,5 +57,6 @@
         border-radius: 2px;
         margin: 28px 0 33px 25px;
         padding-right: 28px;
+        flex-direction: row;
     }
 }
