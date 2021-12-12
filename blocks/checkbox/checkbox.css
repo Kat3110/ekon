@@ -234,7 +234,7 @@ label:before {
   }
   
   input[type=checkbox]:checked + label:before {
-    background: white url(../../images/galka.svg) no-repeat 3px 5px;  
+    background: white url(../../images/galka.svg) no-repeat 8px 8px / 51%;
   }
   
   input[type=checkbox]:checked + label {
@@ -288,11 +288,26 @@ label:before {
     background: transparent url(../../images/cover.svg) no-repeat center;
   }
   .filter__block .checkbox {
-    margin: 10px;
+    margin: 0 0 11px 0px;
     font-size: 18px;
   }
-  .filter__block .label {
-    width: 10px;
-    height: 10px;
+  .filter__block label:before {
+    width: 26px;
+    height: 26px;
+  }
+
+  .filter__block label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 44px;
+    margin-right: 15px;
+    font-size: 18px;
+    line-height: 40px;
+    color: #2B2E34;
+  }
+
+  .filter__block label:before {
+    left: -4px;
   }
 }
