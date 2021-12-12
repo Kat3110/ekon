@@ -74,7 +74,7 @@
         font-weight: 600;
         font-size: 16px;
         line-height: 20px;
-        margin: auto 15px 15px;
+        margin: auto 17px 16px;
     }
     .product__price span{
         font-size: 11px;
@@ -86,9 +86,10 @@
         line-height: 11px;
         margin: 0;
         bottom: 4px;
-        left: 66px;
+        left: 68px;
         width: 52px;
-        background: url(../../../images/redline.svg) no-repeat -2px 0;
+        background: url(../../../images/redline.svg) no-repeat -2px 2px;
+        background-size: 95%;
     }
     .product__price_discount span {
         font-size: 7px;

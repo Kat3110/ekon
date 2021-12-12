@@ -20,7 +20,7 @@
 @media screen and (max-width: 767px) { 
     .header__nav_car {
         background: transparent url(../../../../images/phone.svg) no-repeat center;
-        height: 23px;
+        height: 25px;
         width: 24px;
     }
 }

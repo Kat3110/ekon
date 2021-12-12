@@ -21,7 +21,7 @@
 @media screen and (max-width: 767px) { 
     .header__nav_person {
         background: transparent url(../../../../images/person.svg) no-repeat center / 123%;
-        width: 20px;
+        width: 22px;
         height: 25px;
         margin: 0 20px 0;
     }

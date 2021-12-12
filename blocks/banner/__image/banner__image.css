@@ -21,9 +21,9 @@
         width: 416px;
         display: block;
         position: absolute;
-        bottom: -84px;
+        bottom: -81px;
         object-fit: contain;
-        left: -2px;
+        left: 0px;
     }
     .banner__image {
         display: none;

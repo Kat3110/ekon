@@ -46,7 +46,7 @@
     .catalog__product {
         position: absolute;
         top: -87px;
-        left: 1px;
+        left: 3px;
         font-size: 18px;
         line-height: 23px;
         font-weight: 400;
@@ -56,7 +56,8 @@
     .catalog__product span {
         font-size: 18px;
         line-height: 23px;
-        margin-right: 4px;
+        margin-right: 3px;
+        letter-spacing: 0.1px;
     }
     .catalog__filter {
         display: block;

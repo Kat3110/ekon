@@ -12,6 +12,6 @@
 
 @media screen and (max-width: 767px){
     .product {
-        grid-template-columns: repeat(2 , 177px);
+        grid-template-columns: repeat(2 , 179px);
     }
 }

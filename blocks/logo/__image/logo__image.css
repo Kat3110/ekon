@@ -28,15 +28,9 @@
     .logo__image_min {
         display: block;
         width: 186px;
-        height: 37px;
-        margin: 16px 0 16px 23px;
+        height: 38px;
+        margin: 16px 0 12px 22px;
     }
-    /* .menu .logo__image_min {
-        display: block;
-        width: 181px;
-        height: 39px;
-        margin: 0;
-    } */
     .search .logo__image_min {
         display: block;
         width: 181px;

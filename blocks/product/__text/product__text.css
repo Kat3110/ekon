@@ -23,10 +23,10 @@
 
 @media screen and (max-width: 767px){
     .product__text {
-        background: transparent url(../../../images/procent.svg) no-repeat 6px 3px / 13%;
+        background: transparent url(../../../images/procent.svg) no-repeat 6px 3px / 14%;
         font-size: 12.2917px;
         line-height: 16px;
         margin: 8px 0 6px 2px;
-        padding-left: 13px;
+        padding-left: 16px;
     }
 }
