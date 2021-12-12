@@ -20,4 +20,10 @@
         font-size: 18px;
         line-height: 23px;
     }
+
+    .filter__block .filter__sum {
+        margin: 0 0 49px;
+        font-size: 19px;
+        line-height: 15px;
+    }
 }

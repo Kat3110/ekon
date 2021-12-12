@@ -99,7 +99,15 @@
         margin: 0 auto 67px;
     
     }
-    
+
+    .filter__block .filter__price {
+        width: 375px;
+        margin: 0 auto;
+        font-size: 14px;
+        line-height: 10px;
+        margin: 0px auto 63px;
+    }
+
     .price {
         width: 295px;
         margin: 0 0 0 auto;

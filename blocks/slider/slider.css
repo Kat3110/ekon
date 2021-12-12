@@ -176,3 +176,20 @@ works properly when clicked or hovered */
 /* .filter__price .second-value {
     margin: 0 0 0 112px;
 } */
+
+@media screen and (max-width: 767px){
+	.filter__block .ui-slider span:focus { outline: none; }
+	.first-value,
+	.second-value {
+		position: relative;
+		font-weight: 500;
+		font-size: 19px;
+		line-height: 7px;
+		display: flex;
+		margin: 0px 2px 0 -4px;
+	}
+
+	.filter__block .filter__price .second-value {
+		margin-left: 138px;
+	}
+}
