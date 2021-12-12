@@ -6,8 +6,12 @@
 }
 
 @media screen and (max-width: 767px){
+
+    .filter__block .filter__close {
+        margin-bottom: 51px;
+    }
     .filter__apply .filter__close {
-        margin: 0 0 51px !important;
+        margin: 0 0 51px !important ;
         padding-bottom: 51px;
         border: 0;
         background: rgb(255, 255, 255);
