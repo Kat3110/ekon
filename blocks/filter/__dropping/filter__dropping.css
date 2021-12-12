@@ -36,5 +36,6 @@
         background: transparent url(../../../images/close.svg) no-repeat 90px 1px;
         padding-right: 72px;
         display: block;
-}
+        height: 26px;
+    } 
 }

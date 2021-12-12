@@ -38,11 +38,16 @@
    .filter__heating:nth-child(7) {
       margin: 0 30px 65px;
    }
-
+   .filter__block .filter__heating {
+      margin: 0px 21px 56px;
+   }
    .filter__block .filter__heating:nth-child(3) {
-      margin: 0px 20px 65px;
+      margin: 0px 20px 59px;
   }
-  .filter__block .filter__heating {
-   margin: 0px 21px 56px;
+  .filter__block .filter__heating:nth-child(7) {
+      margin: 0px 20px 55px;
+   }
+   .filter__block .filter__heating:nth-child(8) {
+      margin: 0px 20px 33px;
    }
 }

@@ -16,7 +16,8 @@
         width: 32px;
     }
     .filter__apply .banner__icon {
-        width: 25.48px;
-        height: 7.28px;
+        width: 31.48px;
+        height: 17.28px;
+        margin-left: 10px;
     }
 }

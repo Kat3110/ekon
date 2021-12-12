@@ -273,7 +273,6 @@ label:before {
     position: absolute;
     left: 0;
     bottom: 1px;
-    background: transparent;
     border: 2px solid #F4F4F4;
   }
   
@@ -289,6 +288,9 @@ label:before {
   }
   .filter__block .checkbox {
     margin: 0 0 8px 0;
+  }
+  .filter__block  .checkbox__color {
+    margin: 0 0 7px 0;
   }
   .filter__block label:before {
     width: 26px;
@@ -307,12 +309,27 @@ label:before {
   }
 
   .filter__block label:before {
-    left: 0;
+    left: 1px;
+    top: 7px;
   }
 
   .filter__block .checkbox__color label:before {
     content: "";
-    width: 10px;
-    height: 10px;
-  } 
+    width: 12px;
+    height: 12px;
+    left: 5px;
+    top: 14px;
+  }
+  .filter__block input[type=checkbox]:checked + label:before {
+    background: white url(../../images/galka.svg) no-repeat 6px 8px / 54%;
+  }
+
+  .filter__block .checkbox__color label:after {
+    width: 12px;
+    height: 12px;
+    right: -38px;
+    top: 14px;
+    background: transparent url(../../images/cover.svg) no-repeat center;
+    background-size: 95%;
+}
 }
