@@ -192,4 +192,46 @@ works properly when clicked or hovered */
 	.filter__block .filter__price .second-value {
 		margin-left: 138px;
 	}
+
+	.filter__block .ui-slider {
+		border-top: 4px solid #DEE1E8 !important;
+	}
+
+	.filter__block .ui-slider-horizontal .ui-slider-range {
+		top: -4px;
+		height: 100%;
+	}
+
+	.filter__block .ui-slider-range {
+		border-top: 5px solid #38D3E8 !important;
+	}
+
+	.filter__block .ui-state-default, 
+	.filter__block .ui-widget-content 
+	.filter__block .ui-state-default, 
+	.filter__block .ui-widget-header 
+	.filter__block .ui-state-default, 
+	.filter__block .filter__block .ui-button, 
+	.filter__block .ui-state-hover, 
+	.filter__block .ui-widget-content 
+	.filter__block .ui-state-hover, 
+	.filter__block .ui-widget-header 
+	.filter__block .ui-state-hover, 
+	.filter__block .ui-state-focus, 
+	.filter__block .ui-widget-content 
+	.filter__block .ui-state-focus, 
+	.filter__block .ui-widget-header 
+	.filter__block .ui-state-focus, 
+	.filter__block .ui-button:hover, 
+	.filter__block .ui-button:focus {
+		border-left: 5px solid #38D3E8;
+	}
+
+	.filter__block .ui-slider-horizontal .ui-slider-handle {
+		top: -12px;
+	}
+
+	.filter__block .ui-slider .ui-slider-handle {
+		height: 23px;
+	}
 }
