@@ -16,6 +16,7 @@
 
 @media screen and (max-width: 767px){
     .filter__close {
-        margin: 0 ;
+        margin: 0;
+        padding-bottom: 51px;
     }
 } 

@@ -19,9 +19,9 @@
 
 @media screen and (max-width: 767px){
     .filter__heating_text {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 23px;
-        margin: 0 0 25px;
-        background: transparent url(../../../../images/Vector.svg) no-repeat 282px 7px;
+        margin: 0 0 23px;
+        background: transparent url(../../../../images/Vector.svg) no-repeat 359px 9px;
     }
 }
