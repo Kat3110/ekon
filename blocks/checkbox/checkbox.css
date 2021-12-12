@@ -287,12 +287,12 @@ label:before {
     top: 3px;
     background: transparent url(../../images/cover.svg) no-repeat center;
   }
-  /* .filter__block .checkbox {
+  .filter__block .checkbox {
     margin: 10px;
-    font-size: ;
+    font-size: 18px;
   }
   .filter__block .label {
     width: 10px;
     height: 10px;
-  } */
+  }
 }
