@@ -12,14 +12,7 @@
     font-weight: 500;
     color: #2B2E34;
     font-size: 18px;
-    margin-right: 0;
-}
-.catalog__product span i {
-    font-style: normal;
     margin-right: 5px;
-}
-.catalog__product span i:last-of-type {
-    display: none;
 }
 
 @media screen and (max-width: 1570px){
@@ -51,11 +44,5 @@
         line-height: 23px;
         margin-right: 3px;
         letter-spacing: 0.1px;
-    }
-    .catalog__product span i:first-of-type {
-        display: none;
-    }
-    .catalog__product span i:last-of-type {
-        display: inline-block;
     }
 }

@@ -23,16 +23,7 @@
         height: 281px;
         margin-bottom: 15px;
     }
-    .product__box:nth-of-type(3n) {
+    /* .product__box:nth-child(n+9) {
         display: none;
-    }
-    .product__box:nth-of-type(14)  {
-        display: none;
-    }
-    .product__box:nth-of-type(15)  {
-        display: none;
-    }
-    .product__box:nth-of-type(13)  {
-        display: none;
-    }
+    } */
 }

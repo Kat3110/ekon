@@ -5,6 +5,7 @@
     color: #2B2E34;
     width: 298px;
     margin: 38px auto;
+    text-overflow: ellipsis;
 }
 
 @media screen and (max-width: 1570px){
@@ -23,5 +24,8 @@
         line-height: 19px;
         width: 151px;
         margin: 11px auto 0 17px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        height: 61px;
     }
 }

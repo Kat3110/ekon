@@ -2,7 +2,7 @@
     font-size: 15px;
     line-height: 28px;
     color: #2B2E34;
-    width: 103px;
+    width: max-content;
     height: 25px;
     margin: 30px auto 121px;
     border-bottom: 2px solid #2B2E34;

@@ -7,7 +7,9 @@
     line-height: 26px;
     font-weight: 400;
     width: 1540px;
+    justify-content: space-between;
 }
+
 .info a {
     text-decoration: none;
     color: #2B2E34;
@@ -27,6 +29,7 @@
     }
     
 }
+
 @media screen and (max-width: 767px) { 
     .info {
         display: none;

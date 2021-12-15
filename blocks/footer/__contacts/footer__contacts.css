@@ -1,12 +1,12 @@
 .footer__contacts {
     width: 280px;
-    margin-right: 200px;
+    /* margin-right: 200px; */
 }
 
 @media screen and (max-width: 1570px) {
     .footer__contacts {
         width: 18.065vw;
-        margin-right: 12.903vw;
+        /* margin-right: 12.903vw; */
     }
 }
 

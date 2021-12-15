@@ -6,9 +6,6 @@
     color: #2B2E34;
     margin: 17px 0 26px;
 }
-.seo__paragraf:nth-child(2n) {
-    margin-bottom: 28px;
-}
 .seo__paragraf p {
     margin: 0;
     padding: 0;
@@ -20,8 +17,5 @@
         font-size: 1.032vw;
         line-height: 1.677vw;
         margin: 1.677vw 0 1.677vw;
-    }
-    .seo__paragraf:nth-child(2n) {
-        margin-bottom: 1.806vw;
     }
 }

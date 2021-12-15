@@ -14,4 +14,7 @@
     .product {
         grid-template-columns: repeat(2 , 179px);
     }
+    .product__none {
+        display: none !important;
+    }
 }

@@ -1,9 +1,6 @@
 .element__none {
     display: none;
 }
-.element__block {
-    margin-top: 22px;
-}
 
 
 @media screen and (max-width: 767px) { 

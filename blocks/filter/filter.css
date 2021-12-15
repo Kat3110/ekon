@@ -1,6 +1,6 @@
 .filter {
     width: 355px;
-    height: 1910px;
+    height: max-content;
     background: #F4F4F4;
     border-radius: 3px;
 }
@@ -8,7 +8,6 @@
 @media screen and (max-width: 1570px){
     .filter {
         width: 22.903vw;
-        height: 110%;
         background: #F4F4F4;
         border-radius: 0.194vw;
     }
@@ -19,7 +18,6 @@
     .filter {
         display: none;
         width: 414px;
-        height: 1910px;
         border-radius: 3px;
     }
 }

@@ -1,29 +1,10 @@
 .filter__heating {
    margin: 0 30px 62px;
 }
-.filter__heating:nth-child(3) {
-   margin: 0 30px 61px;
-}
-
-.filter__heating:nth-child(6) {
-   margin: 0 30px 59px;
-}
-
-.filter__heating:nth-child(7) {
-   margin: 0 30px 58px;
-}
-
 
 @media screen and (max-width: 1570px){
    .filter__heating {
       margin: 0 1.935vw 3.871vw;
-   }
-   .filter__heating:nth-child(3) {
-      margin: 0 1.935vw 4.323vw;
-   }
-   
-   .filter__heating:nth-child(7) {
-      margin: 0 1.935vw 4.194vw;
    }
 }
 
@@ -31,23 +12,8 @@
    .filter__heating {
       margin: 0px 21px 94px;
    }
-   .filter__heating:nth-child(3) {
-      margin: 0 30px 67px;
-   }
-   
-   .filter__heating:nth-child(7) {
-      margin: 0 30px 65px;
-   }
+  
    .filter__block .filter__heating {
       margin: 0px 21px 56px;
-   }
-   .filter__block .filter__heating:nth-child(3) {
-      margin: 0px 20px 59px;
-  }
-  .filter__block .filter__heating:nth-child(7) {
-      margin: 0px 20px 55px;
-   }
-   .filter__block .filter__heating:nth-child(8) {
-      margin: 0px 20px 33px;
    }
 }

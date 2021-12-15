@@ -2,7 +2,6 @@
     background: transparent url(../../../../images/person.svg) no-repeat center 5px;
     width: 28px;
     height: 35px;
-    margin: 0 29px 0 31px;
     cursor: pointer;
 }
 
@@ -15,7 +14,6 @@
         background: transparent url(../../../../images/person.svg) no-repeat center 0.323vw / 101%;
         width: 1.783vw;
         height: 2.229vw;
-        margin: 0 1.847vw 0 1.975vw;
     }
 }
 @media screen and (max-width: 767px) { 

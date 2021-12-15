@@ -1,17 +1,13 @@
 .footer__category {
     width: 256px;
-    margin-right: 190px;
+    /* margin-right: 190px; */
 }
 
-.footer__category:nth-child(4) {
-    width: auto;
-    margin-right: 0;
-}
 
 @media screen and (max-width: 1570px){
     .footer__category {
         width: 16.516vw;
-        margin-right: 12.258vw;
+        /* margin-right: 12.258vw; */
     }
 }
 

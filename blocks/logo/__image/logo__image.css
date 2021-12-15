@@ -1,7 +1,7 @@
 .logo__image {
     width: 275px;
     height: 66px;
-    margin: 0px 73px 0 74px;
+    margin: 0;
 }
 .logo__image_min {
     display: none;
@@ -10,8 +10,7 @@
 @media screen and (max-width: 1570px) {
     .logo__image {
         width: 17.742vw;
-        height: 4.258vw;
-        margin: 0px 4.710vw 0 4.774vw;
+        height: 4.258vw;;
     }
 }
 .menu .logo__image_min {

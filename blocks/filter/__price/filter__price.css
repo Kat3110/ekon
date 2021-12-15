@@ -1,11 +1,10 @@
 .filter__price {
     width: 297px;
-    margin: 0 auto;
     position: relative;
     font-size: 14px;
     line-height: 10px;
     font-weight: 500;
-    margin: 0 auto 64px;
+    margin: 0 30px 64px;
 
 }
 

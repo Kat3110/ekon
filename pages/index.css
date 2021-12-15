@@ -16,8 +16,6 @@
 @import url(../blocks/header/__nav/_person/header__nav_person.css);
 @import url(../blocks/header/__nav/_shop/header__nav_shop.css);
 
-
-@import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__image/logo__image.css);
 
 @import url(../blocks/info/info.css);

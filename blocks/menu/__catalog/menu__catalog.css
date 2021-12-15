@@ -23,14 +23,6 @@
     background: transparent url(../../../images/Vector.svg) no-repeat 2px 7px;
 }
 
-.menu__catalog:last-of-type {
-    padding-bottom: 61px;
-}
-
-.menu__catalog:last-of-type li {
-    margin-bottom: 30px;
-}
-
 .search .menu__catalog {
     margin: 0 0 0 54px;
     font-weight: normal;

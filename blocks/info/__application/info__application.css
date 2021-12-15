@@ -1,13 +1,11 @@
 .info__application {
     background: url(../../../images/application.svg) no-repeat 0px 1px;
     padding-left: 36px;
-    margin-left: 169px;
 }
 
 @media screen and (max-width: 1570px) { 
     .info__application {
         background: url(../../../images/application.svg) no-repeat 0px 0.065vw / 13%;
         padding-left: 2.323vw;
-        margin-left: 10.903vw;
     } 
 }
