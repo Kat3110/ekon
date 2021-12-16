@@ -1,7 +1,8 @@
 .logo__image {
-    width: 275px;
+    width: 236px;
     height: 66px;
     margin: 0;
+    object-fit: cover;
 }
 .logo__image_min {
     display: none;

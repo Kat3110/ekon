@@ -19,7 +19,8 @@ footer li,
 }
 
 .footer .logo__image {
-    margin: -7px 0 50px 5px;
+    margin: 0 0 53px 0;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 1570px){
@@ -44,7 +45,7 @@ footer li,
     .footer .logo__image {
         display: block;
         margin: 0px 0 41px 0;
-        width: 280px;
+        width: 256px;
         height: 71px;
     }
 }

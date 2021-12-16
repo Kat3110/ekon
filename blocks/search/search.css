@@ -1,8 +1,11 @@
 .search {
     width: 414px;
     margin: 0 auto;
-    background: rgb(255, 255, 255)!important;
-    height: 969px;
+    background: #F7F7F7!important;
+    height: max-content;
+    display: none;
+    position: absolute;
+    z-index: 3;
 }
 
 .search ul,
@@ -13,4 +16,24 @@
     padding: 0;
     text-decoration: none;
     color: #2B2E34;
+}
+
+.search {
+    height: max-content;
+    width: 800px;
+}
+
+@media screen and (max-width: 1570px) { 
+    .search {
+        height: max-content;
+        width: 54.2vw;
+    }
+}
+
+@media screen and (max-width: 767px) { 
+    .search {
+        width: 414px;
+        background: #F7F7F7!important;
+        height: max-content;
+    }
 }

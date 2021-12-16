@@ -11,6 +11,10 @@
     padding: 0 0 0 66px;
 }
 
+.header__search_input:focus + .search {
+    display: block;
+}
+
 @media screen and (max-width: 1570px) { 
     .header__search_input {
         height: 3.439vw;
@@ -20,7 +24,6 @@
         line-height: 1.210vw;
         padding: 0 0 0 4.204vw;
     }
-    
 }
 
 @media screen and (max-width: 767px) { 

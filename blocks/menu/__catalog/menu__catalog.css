@@ -29,5 +29,28 @@
     font-size: 14px;
     line-height: 25px;
     color: #2B2E34;
+}
 
+.menu__catalog_search li {
+    margin: 10px 0 !important;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1570px) { 
+    .menu__catalog_search li {
+        margin: 0.637vw 0 !important;
+        font-size: 0.892vw;
+    }
+    .search .menu__catalog {
+        margin: 0 0 0 3.439vw;
+        line-height: 1.592vw;
+    }
+}
+
+@media screen and (max-width: 767px) { 
+    .menu__catalog_search li {
+        margin: 10px 0 !important;
+        font-size: 13px;
+        line-height: 24px;
+    }
 }
